@@ -115,7 +115,7 @@ iniciar.addEventListener('click', function(){
     if(obj.texto[num].paragrafo2 != undefined){
       document.getElementById("teste").appendChild(para3);
     }
-    let novoCaminho = `/assets/${obj.texto[num].imagem}.svg`;
+    let novoCaminho = `assets/${obj.texto[num].imagem}.svg`;
     imagemTela.src = novoCaminho;
   }
 
