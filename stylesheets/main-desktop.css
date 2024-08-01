@@ -1,0 +1,85 @@
+@media only screen and (min-width: 992px) {
+    main{
+        align-items: center;
+        flex: 1 0 auto;
+        padding: 0 0 3rem 0;
+    }
+
+    nav > .container, nav > .container-fluid {
+        position: relative;
+        z-index: 100;
+        background-color: transparent;
+        border: 1px solid transparent;
+      }
+
+    nav .nav-link {
+    background-color: white;
+    }
+
+    .teste{
+        height: 100%;
+      }
+
+    .tela-conteudo{
+        height: 100%;
+        margin: 10px 0 0 0;
+    }
+
+    .slide{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 500px;
+        border-radius: 20px;
+        margin: 10px 0 30px 0;
+    }
+
+    .slide .image{
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: 5px 1px 19px 0px #00000036;
+    }
+
+    .slide .image #imagem-tela {
+        width: 200px;
+        margin: auto;
+    }
+
+    #teste p:nth-child(1){
+        color: #013475;
+        font-weight: 900;
+        font-size: 2rem;
+    }
+    
+    #teste p:not(:nth-child(1)){
+        font-size: 1.3rem;
+    }
+
+    .tela-paragrafos{
+        width: 120%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+    }
+
+    .botoes{
+        position: absolute;
+        top: 500px;
+        left: 0;
+        width: 962px;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .botoes{
+        width: 1142px;
+    }
+}

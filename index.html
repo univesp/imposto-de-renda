@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:image" content="assets/fb-share.png">
   <meta name="author" content="Univesp">
 
@@ -38,7 +38,8 @@
   <!-- <link rel="stylesheet" href="../common/rea-geral-2.1.css">   -->
   <link rel="stylesheet" href="stylesheets/nav_footer.css">
   <link rel="stylesheet" href="stylesheets/main.css">
-
+  <link rel="stylesheet" href="stylesheets/main-desktop.css">
+  
 
 <!--[if gte mso 9]><xml>
 <mso:CustomDocumentProperties>
@@ -98,9 +99,34 @@
     <div class="container">
       <!-- Seu conteúdo -->
       <div class="teste">
-        <p id="teste">.</p>
-      </div>
+        <div id="tela-conteudo" class="tela-conteudo">
+          <div class="menu-topo">...</div>
+          <h1>Imposto de Renda</h1>
+          <h2>Descomplicado</h2>
+          <img src="/assets/Leao.svg">
+          <button id="iniciar">iniciar</button>
+        </div>
 
+        <div id="container-slide" class="container-slide hidden-div">
+          <div class="slide">
+            <div class="tela-paragrafos">
+              <p id="teste">.</p>
+              <div class="rodape" id="rodape">1/60</div>
+            </div>
+            <div class="image">
+              <div class="menu-topo">... menu</div>
+              <img src=""  id="imagem-tela" alt="">
+              <div id="container-botoes" class="botoes hidden-div">
+                <button id="voltar"><img src="/assets/seta.png" alt="" srcset=""></button>
+                <button id="avancar"><img src="/assets/seta.png" alt="" srcset=""></button>
+              </div>
+            </div>
+            
+          </div>
+
+
+        </div>
+      </div>
     </div>
   </main>
 
@@ -244,6 +270,7 @@
 
   <!-- Custom JS -->
   <script type="text/javascript" src="javascripts/events.js"></script>
+  <script type="module" src="javascripts/data.js"></script>
 
   <!-- MathJax. Descomente se for utilizar. Caso contrário, remova. -->
   <!-- <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->

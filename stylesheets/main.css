@@ -1,3 +1,180 @@
 body {
-  background-color: #DFE6E8;
+  background-color: #607989;
 }
+
+nav > .container, nav > .container-fluid {
+  position: relative;
+  z-index: 100;
+  background-color: white;
+  border: 1px solid white;
+}
+
+nav .nav-link {
+  background-color: transparent;
+}
+
+main{
+  display: flex;
+  padding: 0 0 0 0;
+  flex: none;
+}
+
+.teste{
+  /* height: 100vh; */
+}
+
+.container{
+  padding: 0;
+}
+
+.tela-conteudo{
+  background-color: #ebf1f2;
+  /* border:1px solid red; */
+
+  height: calc(664px - 79.08px);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  border-radius: 0;
+
+  /* width: 100vw;
+  height: 100vh;
+  transform: translate(-15px, -109px); */
+}
+
+.menu-topo{
+  width: 100%;
+  height: 2.3rem;
+  padding: 0 1.5rem;
+  border-bottom: 3px solid #607989;
+
+  display: flex;
+}
+
+.tela-conteudo button {
+  margin: 0px 0px;
+}
+
+.tela-conteudo h1{
+  font-weight: bolder;
+  font-size: 2.4rem;
+  text-align: center;
+  margin: 20px 0 0 0;
+  color: #013475;
+}
+
+.tela-conteudo h2{
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #8bca29;
+}
+
+.tela-conteudo img{
+  margin: 20px 0;
+}
+
+.tela-conteudo button{
+  width: 100px;
+  height: 50px;
+  border-radius: .5rem;
+  border: 1px solid transparent;
+  background-color: #8ac926;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin: 10px 0 40px 0;
+}
+
+.slide{
+  text-align: center;
+  padding: 0px;
+
+  background-color: white;
+  border-radius: 0;
+}
+
+.slide p{
+  padding: 0px 10px;
+  position: relative;
+}
+
+.slide .image{
+  width: 100%;
+  height: 295px;
+  margin: 0;
+  background-color: #ebf1f2;
+  border-radius: 25px 25px 0 0;
+  position: relative;
+  box-shadow: 0px -3px 9px -6px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.slide .image #imagem-tela{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  margin: 25px auto 0;
+}
+
+.tela-paragrafos{
+  height: 285px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.rodape{
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 15px 10px 0;
+  background-color: #e0e0e0c0;
+  color: black;
+  padding: 5px;
+}
+
+#teste p:nth-child(1){
+  color: #013475;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.botoes{
+  display: flex;
+  justify-content: space-around;
+  width: 100px;
+  margin: 20px auto;
+}
+
+#voltar,
+#avancar{
+  background-color: #8ac926;
+  border: none;
+  border-radius: 50%;
+  width: 39px;
+  height: 39px;
+}
+
+#voltar img,
+#avancar img{
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#avancar img{
+  transform: rotate(180deg);
+}
+
+.hidden-div{
+  display: none;
+}
+
