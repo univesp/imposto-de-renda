@@ -29,7 +29,7 @@ main{
 
 .tela-conteudo{
   background-color: #ebf1f2;
-  /* border:1px solid red; */
+  border:1px solid #bfbfbf;
 
   height: calc(664px - 79.08px);
   display: flex;
@@ -50,6 +50,23 @@ main{
   border-bottom: 3px solid #607989;
 
   display: flex;
+  font-weight: 600;
+  align-items: center;
+  color: #013475;
+
+  text-transform: uppercase;
+}
+
+span{
+  margin-right: 10px;
+  letter-spacing: 3px;
+  font-size: 2rem;
+  color: #8ac926;
+  margin-bottom: 15px;
+}
+
+.ul{
+  border:1px solid red;
 }
 
 .tela-conteudo button {
