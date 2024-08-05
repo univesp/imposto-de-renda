@@ -38,7 +38,64 @@ $(document).ready(function(){
 '{"titulo":"O que é","paragrafo":"O Imposto de Renda Pessoa Física (IRPF) é um tributo federal brasileiro que incide sobre os ganhos de pessoas físicas. Ele é administrado pela Receita Federal do Brasil e é uma das principais fontes de receita para o governo","imagem":"LogoReceitaFederal"},' +
 '{"titulo":"Quem deve declarar","paragrafo":"Pessoas que tiveram rendimentos tributáveis (como salários, aposentadorias, aluguéis, entre outros) acima do limite estabelecido pela Receita Federal.", "paragrafo2":"Em 2023 este valor foide R$ 28.559,70 anuais, ou R$ 2.379,97 mensais","imagem":"Dinheiro"},' +
 '{"titulo":"A periodicidade","paragrafo":"A declaração do Imposto de Renda Pessoa Física(IRPF) é obrigatória anualmente.","imagem":"Calendario" },' +
-'{"titulo":"Mão na massa", "paragrafo":"Agora que você já sabe o que é o IRPF (Imposto de Renda de Pessoa Física) e se deve ou não declarar, vamos aprender na prática como fazer isso!","imagem":"Caderno" }]}';
+'{"titulo":"Mão na massa", "paragrafo":"Agora que você já sabe o que é o IRPF (Imposto de Renda de Pessoa Física) e se deve ou não declarar, vamos aprender na prática como fazer isso!","imagem":"Caderno" },' + 
+'{"paragrafo":"1","paragrafo2":"1","imagem":"texto" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Informacoes1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Informacoes2" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Informacoes3" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Informacoes4" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Informacoes5" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Informacoes6" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Informacoes7" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Informacoes8" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Informacoes9" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Informacoes10"},' +
+'{"titulo":"1","paragrafo":"1","imagem":"Informacoes11"},' +
+'{"titulo":"1","paragrafo":"1","imagem":"Programa1"},' +
+'{"titulo":"1","paragrafo":"1","imagem":"Programa2" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Programa3" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Programa3" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Programa3" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Programa3" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Programa3" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Programa3" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Programa3" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Programa3" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Programa3" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Computador" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Programa1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Programa1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Programa1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Programa1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Programa1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Programa1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Programa1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Declaracao" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Declaracao" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Declaracao" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Declaracao" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Declaracao" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Texto2" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"Texto3" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
+'{"titulo":"1","paragrafo":"1","imagem":"1"}]}';
   
 const obj = JSON.parse(text);
 var num;
@@ -110,13 +167,23 @@ iniciar.addEventListener('click', function(){
     para2.appendChild(node2);
     para3.appendChild(node3);
     //renderiza na tela o titulo e paragrafo
-    document.getElementById("teste").appendChild(para);
-    document.getElementById("teste").appendChild(para2);
+    if(obj.texto[num].titulo != undefined){
+      document.getElementById("teste").appendChild(para);
+    }
+    if(obj.texto[num].paragrafo != undefined){
+      document.getElementById("teste").appendChild(para2);
+    }
     if(obj.texto[num].paragrafo2 != undefined){
       document.getElementById("teste").appendChild(para3);
     }
-    let novoCaminho = `assets/${obj.texto[num].imagem}.svg`;
+    let novoCaminho;
+    if(obj.texto[num].imagem.length > 1){
+      novoCaminho = `assets/${obj.texto[num].imagem}.svg`;
+    } else {
+      novoCaminho = `assets/default.png`;
+    }
     imagemTela.src = novoCaminho;
+    console.log(obj.texto[num].imagem.length > 1)
   }
 
   function RemoverTextoTela(){
