@@ -40,28 +40,28 @@ $(document).ready(function(){
 '{"titulo":"A periodicidade","paragrafo":"A declaração do Imposto de Renda Pessoa Física(IRPF) é obrigatória anualmente.","imagem":"Calendario" },' +
 '{"titulo":"Mão na massa", "paragrafo":"Agora que você já sabe o que é o IRPF (Imposto de Renda de Pessoa Física) e se deve ou não declarar, vamos aprender na prática como fazer isso!","imagem":"Caderno" },' + 
 '{"paragrafo":"1","paragrafo2":"1","imagem":"texto" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Informacoes1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Informacoes2" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Informacoes3" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Informacoes4" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Informacoes5" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Informacoes6" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Informacoes7" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Informacoes8" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Informacoes9" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Informacoes10"},' +
-'{"titulo":"1","paragrafo":"1","imagem":"Informacoes11"},' +
-'{"titulo":"1","paragrafo":"1","imagem":"Programa1"},' +
-'{"titulo":"1","paragrafo":"1","imagem":"Programa2" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Programa3" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Programa3" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Programa3" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Programa3" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Programa3" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Programa3" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Programa3" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Programa3" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Programa3" },' +
+'{"titulo":"Reunindo as informações","paragrafo":"Para elaborar a declaração do Imposto de Renda Pessoa Física (IRPF) no Brasil, é essencial reunir uma série de documentos que comprovem os seus rendimentos, despesas, investimentos e outras informações relevantes.","paragrafo2":"Abaixo, uma lista geral de documentos que você pode precisar para realizar a sua declaração:","paragrafo3":"Documentos pessoais:","paragrafo4":"CPF (Cadastro de Pessoa Física)","paragrafo5":"Título de Eleitor","paragrafo6":"RG (Registro Geral) ou outro documento de autentificação oficial","paragrafo7":"Cópia da declaração do IRPF do ano anterior (caso tenha declarado","imagem":"Informacoes1" },' +
+'{"titulo":"Reunindo as informações","paragrafo":"Comprovantes de Rendimentos:","paragrafo2":"Informe de Rendimentos fornecido pelo empregador ou fontes pagadoras","paragrafo3":"Extratos bancários (contas correntes, poupança, investimentos)","paragrafo4":"Informes de instituições financeiras sobre aplicações e investimentos geral ou outro documento de identificação oficial","imagem":"Informacoes2" },' +
+'{"titulo":"Reunindo as informações","paragrafo":"Comprovantes de Pagamentos e Recebimentos:","paragrafo2":"Comprovantes de pagamento ou recebimento de aluguel","paragrafo3":"Comprovantes de pensão alimentícia (pagamentos ou recebimentos)","paragrafo4":"Comprovantes de despesas médicas e odontológicas","imagem":"Informacoes3" },' +
+'{"titulo":"Reunindo as informações","paragrafo":"Comprovantes de Despesas Educacionais","paragrafo2":"Recibo e comprovantes de mensalidades escolares","paragrafo3":"Comprovantes de gastos com educação formal (cursos técnicos, graduação, pós-graduação)","imagem":"Informacoes4" },' +
+'{"titulo":"Reunindo as informações","paragrafo":"Documentos de Bens e Direitos:","paragrafo2":"Documentos que comprovem a compra ou venda de bens (imóveis, veículos, etc.)","paragrafo3":"Documentação de dívidas e ônus sobre os bens.","imagem":"Informacoes5" },' +
+'{"titulo":"Reunindo as Informações","paragrafo":"Informações sobre Dependentes:","paragrafo2":"CPF dos dependentes","paragrafo3":"Comprovantes de despesas com dependentes, como educação e saúde","imagem":"Informacoes6" },' +
+'{"titulo":"Reunindo as Informações","paragrafo":"Informes de Planos de Saúde e Previdência:","paragrafo2":"Informes de pagamentos de planos de saúde","paragrafo3":"Informes de previdência privada","imagem":"Informacoes7" },' +
+'{"titulo":"Reunindo as Informações","paragrafo":"Comprovantes de Pagamentos de Impostos:","paragrafo2":"Comprovantes de pagamentos de impostos com IPTU e IPVA","imagem":"Informacoes8" },' +
+'{"titulo":"Reunindo as Informações","paragrafo":"Documentos de Identificação Bancária:","paragrafo2":"Número da conta bancária e para restituição ou débito automáticos.","imagem":"Informacoes9" },' +
+'{"titulo":"Reunindo as informações","paragrafo":"Comprovantes de Pagamentos de Impostos:","paragrafo2":"Comprovantes de pagamentos de impostos com IPTU e IPVA","imagem":"Informacoes10"},' +
+'{"titulo":"Reunindo as Informações","paragrafo":"Declaração do Ano Anterior:","paragrafo2":"Cópia da declaração do IRPF do ano anterior (caso tenha declarado)","imagem":"Informacoes11"},' +
+'{"titulo":"Baixando/Instalando o programa","paragrafo":"Depois de reunir e organizar toda a documentação, agora é hora de baixar o programa do IRPF da Receita Federal para dar início ao preenchimento da declaração.","imagem":"Programa1"},' +
+'{"titulo":"Baixando/Instalando o programa","paragrafo":"ATENÇÃO!","paragrafo2":"Todo ano o programa de Declaração do IRPF da Receita Federal é atualizado. Isso significa que você deverá refazer esse procedimento anualmente.","paragrafo3":"A Receita Federal do Brasil disponibiliza 2 maneiras para você preencher a sua declaração:","paragrafo4":"Declaração online (2.1)","paragrafo5":"Através de Programa para Computador (2.2)","imagem":"Programa2" },' +
+'{"titulo":"Declaração Online","paragrafo":"Na Declaração Online você vai precisar ter um login e senha no portal Gov.br.","paragrafo2":"Após criar a senha e efetuar o login no Gov.br, clique no menu *Serviços*:","imagem":"Programa3" },' +
+'{"titulo":"Declaração Online","paragrafo":"Escolha essa opção","imagem":"Programa3" },' +
+'{"titulo":"Declaração Online","paragrafo":"Escolha essa opção","imagem":"Programa3" },' +
+'{"titulo":"Declaração Online","paragrafo":"Escolha essa opção","imagem":"Programa3" },' +
+'{"titulo":"Declaração Online","paragrafo":"Escolha essa opção","imagem":"Programa3" },' +
+'{"titulo":"Declaração Online","paragrafo":"Clique em iniciar","imagem":"Programa3" },' +
+'{"titulo":"Declaração Online","paragrafo":"Preencha com seu CPF para confirmar","imagem":"Programa3" },' +
+'{"titulo":"Declaração Online","paragrafo":"Digite sua senha e clique em *Enviar*","imagem":"Programa3" },' +
+'{"titulo":"Declaração Online","paragrafo":"Clique em *Fazer Declaração*","paragrafo2":"No próximo passo você será levado à tela do preenchimento da sua declaração, a qual veremos com detalhes no item 3: Preenchimento da Declaração.","imagem":"Programa3" },' +
 '{"titulo":"1","paragrafo":"1","imagem":"Computador" },' +
 '{"titulo":"1","paragrafo":"1","imagem":"Programa1" },' +
 '{"titulo":"1","paragrafo":"1","imagem":"Programa1" },' +
@@ -159,13 +159,28 @@ iniciar.addEventListener('click', function(){
     const para = document.createElement("p");
     const para2 = document.createElement("p");
     const para3 = document.createElement("p");
+    const para4 = document.createElement("p");
+    const para5 = document.createElement("p");
+    const para6 = document.createElement("p");
+    const para7 = document.createElement("p");
+    const para8 = document.createElement("p");
     const node = document.createTextNode(obj.texto[num].titulo);
     const node2 = document.createTextNode(obj.texto[num].paragrafo);
     const node3 = document.createTextNode(obj.texto[num].paragrafo2);
+    const node4 = document.createTextNode(obj.texto[num].paragrafo3);
+    const node5 = document.createTextNode(obj.texto[num].paragrafo4);
+    const node6 = document.createTextNode(obj.texto[num].paragrafo5);
+    const node7 = document.createTextNode(obj.texto[num].paragrafo6);
+    const node8 = document.createTextNode(obj.texto[num].paragrafo7);
 
     para.appendChild(node);
     para2.appendChild(node2);
     para3.appendChild(node3);
+    para4.appendChild(node4);
+    para5.appendChild(node5);
+    para6.appendChild(node6);
+    para7.appendChild(node7);
+    para8.appendChild(node8);
     //renderiza na tela o titulo e paragrafo
     if(obj.texto[num].titulo != undefined){
       document.getElementById("teste").appendChild(para);
@@ -175,6 +190,21 @@ iniciar.addEventListener('click', function(){
     }
     if(obj.texto[num].paragrafo2 != undefined){
       document.getElementById("teste").appendChild(para3);
+    }
+    if(obj.texto[num].paragrafo3 != undefined){
+      document.getElementById("teste").appendChild(para4);
+    }
+    if(obj.texto[num].paragrafo4 != undefined){
+      document.getElementById("teste").appendChild(para5);
+    }
+    if(obj.texto[num].paragrafo5 != undefined){
+      document.getElementById("teste").appendChild(para6);
+    }
+    if(obj.texto[num].paragrafo6 != undefined){
+      document.getElementById("teste").appendChild(para7);
+    }
+    if(obj.texto[num].paragrafo7 != undefined){
+      document.getElementById("teste").appendChild(para8);
     }
     let novoCaminho;
     if(obj.texto[num].imagem.length > 1){
