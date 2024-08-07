@@ -62,34 +62,34 @@ $(document).ready(function(){
 '{"titulo":"Declaração Online","paragrafo":"Preencha com seu CPF para confirmar","imagem":"Programa3" },' +
 '{"titulo":"Declaração Online","paragrafo":"Digite sua senha e clique em *Enviar*","imagem":"Programa3" },' +
 '{"titulo":"Declaração Online","paragrafo":"Clique em *Fazer Declaração*","paragrafo2":"No próximo passo você será levado à tela do preenchimento da sua declaração, a qual veremos com detalhes no item 3: Preenchimento da Declaração.","imagem":"Programa3" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Computador" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Programa1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Programa1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Programa1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Programa1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Programa1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Programa1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Programa1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Declaracao" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Declaracao" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Declaracao" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Declaracao" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Declaracao" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Texto2" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"Texto3" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
-'{"titulo":"1","paragrafo":"1","imagem":"1" },' +
+'{\"titulo\":\"Programa para Computador\",\"paragrafo\":\"No seu navegador, digite: \\\"Download IRPF 2024\\\"\",\"paragrafo2\":\"Em seguida, clique na opção \\\"Download do Programa de Imposto de Renda\\\".\",\"imagem\":\"Computador\" },' +
+'{\"titulo\":\"Programa para Computador\",\"paragrafo\":\"Clique em \\\"Baixar programa\\\"\",\"imagem\":\"Programa1\" },' +
+'{\"titulo\":\"Programa para Computador\",\"paragrafo\":\"Escolha a pasta de destino do instalador e clique em \\\"Salvar\\\"\",\"imagem\":\"Programa1\" },' +
+'{\"titulo\":\"Programa para Computador\",\"paragrafo\":\"Clique em \\\"Avançar\\\"\",\"imagem\":\"Programa1\"},' +
+'{"titulo":"Programa para Computador","paragrafo":"Aguarde a instalação","imagem":"Programa1" },' +
+'{\"titulo\":\"Programa para computador\",\"paragrafo\":\"Concluída a instalação, clicar em \\\"Terminar.\\\"\",\"imagem\":\"Programa1\" },' +
+'{"titulo":"Programa para computador","paragrafo":"Vá ao local onde salvou o arquivo, e clique duas vezes para abrir o programa.","imagem":"Programa1" },' +
+'{"titulo":"Programa para Computador","paragrafo":"Pronto! Depois de concluída a instalação, vamos ao preenchimento da Declaração do seu IRPF.","imagem":"Programa1" },' +
+'{"titulo":"Preenchendo a declaração","paragrafo":"Agora chegou a hora de pôr a mão na massa e preencher a sua Declaração do IRPF.","paragrafo2":"Para isso, preparamos um passo a passo com os principais campos a serem preenchidos.","paragrafo3":"Vejamos:","imagem":"Declaracao" },' +
+'{"titulo":"Preenchendo a declaração","paragrafo":"Essa é a tela inicial do programa de declaração:","imagem":"Declaracao" },' +
+'{\"titulo\":\"Preenchendo a declaração\",\"paragrafo\":\"Clicar em \\\"Iniciar Declaração em Branco\\\"\",\"imagem\":\"Declaracao\" },' +
+'{\"titulo\":\"Preenchendo a declaração\",\"paragrafo\":\"Preencher dados com seu CPF e Nome completo nos respectivos campos e, em seguida, clicar em \\\"OK\\\".\",\"imagem\":\"Declaracao\" },' +
+'{\"titulo\":\"Preenchendo a declaração\",\"paragrafo\":\"Nas \\\"Fichas de Declaração\\\" escolher \\\"Identificação do Contribuinte\\\"\",\"imagem\":\"Declaracao\" },' +
+'{"titulo":"Preenchendo a declaração","imagem":"Texto2" },' +
+'{"titulo":"Preenchendo a declaração","imagem":"Texto3" },' +
+'{\"titulo\":\"Preenchendo a declaração\",\"paragrafo\":\"Nas \\\"Fichas de Declaração\\\" escolher \\\"Dependentes\\\". Caso não possua dependentes, pule essa etapa.\",\"imagem\":\"Declaracao\" },' +
+'{\"titulo\":\"Preenchendo a declaração\",\"paragrafo\":\"Para incluir os dados do dependente, clique em \\\"Novo\\\".\",\"imagem\":\"Declaracao\" },' +
+'{\"titulo\":\"Preenchendo a declaração\",\"paragrafo\":\"Preencher os dados do dependente e em seguida clicar em \\\"OK\\\" (caso tenha mais de 1 dependente, após clicar em \\\"OK\\\" refaça o passo-a-passo)\",\"imagem\":\"Declaracao\" },' +
+'{\"titulo\":\"Preenchendo a declaração\",\"paragrafo\":\"Inserir os dados da fonte pagadora e os valores dos rendimentos. Em seguida, clicar em \\\"OK\\\"\",\"imagem\":\"Declaracao\" },' +
+'{"titulo":"Preenchendo a declaração","imagem":"1" },' +
+'{"titulo":"Preenchendo a declaração","imagem":"1" },' +
+'{"titulo":"Preenchendo a declaração","paragrafo":"Agora, vamos informar as despesas que tivemos ao longo do ano com médicos, dentistas, hospitais, educação etc.","imagem":"Declaracao" },' +
+'{\"titulo\":\"Preenchendo a declaração\",\"paragrafo\":\"Após escolher o tipo e despesa, preencher os dados como CNPJ, nome e descrição da despesa. Em seguida, clique em \\\"OK\\\".\",\"imagem\":\"Declaracao\" },' +
+'{\"titulo\":\"Preenchendo a declaração\",\"paragrafo\":\"Declaração de Bens e Direitos: nessa ficha você vai declarar todos os seus bens, tais como imóveis, automóvel, etc. Não se esquceça de declarar todos os seus bens, um por um. Clique em \\\"Novo\\\" para começar a preencher a ficha.\",\"imagem\":\"Declaracao\" },' +
+'{"titulo":"Preenchendo a declaração","paragrafo":"Escolha o grupo (tipo) de bem e preencha com as informações solicitadas.","imagem":"Declaracao" },' +
+'{\"titulo\":\"Preenchendo a declaração\",\"paragrafo\":\"Se você tiver contraído algum empréstimo ou tem  alguma dívida, você vai declara em \\\"Dívidas e Ônus Reais\\\" e clicar em \\\"Novo\\\".\",\"imagem\":\"Declaracao\" },' +
+'{"titulo":"Conferindo/Salvando sua declaração","paragrafo":"Depois de ter preenchido sua Declaração Anual do IRPF, agora é preciso verificar se ainda há alguma pendência ou se sua declaração contém algum erro.","imagem":"Declaracao" },' +
+'{\"titulo\":\"Conferindo/Salvando sua declaração\",\"paragrafo\":\"Para isso basta clicar no botão \\\"Verificar Pendências\\\", localizado na parte inferior da lista das Fichas de Declaração.\",\"paragrafo2\":\"Corrigir/complementar as informações que aparecem no campo \\\"Pendências\\\"\",\"imagem\":\"Declaracao\" },' +
 '{"titulo":"1","paragrafo":"1","imagem":"1" },' +
 '{"titulo":"1","paragrafo":"1","imagem":"1" },' +
 '{"titulo":"1","paragrafo":"1","imagem":"1" },' +
