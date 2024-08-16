@@ -239,37 +239,42 @@ width: 100%;
 .tela-paragrafos ul li:nth-child(1)::before{
   content: " 1 ";
   background-color: red;
-  margin: 6px 0 0 -55px ;
+  margin: 6px 0 0 -50px ;
 }
 
 
 .tela-paragrafos ul li:nth-child(2)::before{
   content: "2";
   background-color: yellow;
+  margin: 6px 0 0 -45px ;
 }
 
 
 .tela-paragrafos ul li:nth-child(3)::before{
   content: "3";
   background-color: gray;
+  margin: 6px 0 0 -40px ;
 }
 
 
 .tela-paragrafos ul li:nth-child(4)::before{
   content: "4";
   background-color: blueviolet;
+  margin: 6px 0 0 -35px ;
 }
 
 
 .tela-paragrafos ul li:nth-child(5)::before{
   content: "5";
   background-color: green;
+  margin: 6px 0 0 -45px ;
 }
 
 
 .tela-paragrafos ul li:nth-child(6)::before{
   content: "6";
   background-color: blue;
+  margin: 6px 0 0 -35px ;
 }
 
 .rodape{
