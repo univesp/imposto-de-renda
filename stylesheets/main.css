@@ -17,6 +17,7 @@ main{
   display: flex;
   padding: 0 0 0 0;
   flex: none;
+  margin: 0;
 }
 
 .teste{
@@ -190,6 +191,85 @@ width: 100%;
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+.tela-paragrafos ul{
+  list-style:none;
+  width: 500px;
+  height: 200px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tela-paragrafos ul li{
+  width: 50%;
+  text-align: center;
+  font-size: .9rem;
+  font-weight: bolder;
+  padding-left: 30px;
+  /* border: 1px solid red; */
+  /* margin: 5px 10px; */
+  /* font-size: 1rem; */
+}
+
+.tela-paragrafos ul li:nth-child(odd){
+  width: 170px;
+  bordeR:1px solid red;
+}
+
+.tela-paragrafos ul li:nth-child(even){
+  margin-left: 30px;
+  border:1px solid blue;
+}
+
+
+.tela-paragrafos ul li::before{
+  /* font-size: 1.8rem; */
+  padding: 5px 13px;
+  font-size: 1rem;
+  color: azure;
+  position: absolute;
+  border-radius: 50%;
+  margin-left:-35px ;
+  justify-items: center;
+}
+
+.tela-paragrafos ul li:nth-child(1)::before{
+  content: " 1 ";
+  background-color: red;
+  margin: 6px 0 0 -55px ;
+}
+
+
+.tela-paragrafos ul li:nth-child(2)::before{
+  content: "2";
+  background-color: yellow;
+}
+
+
+.tela-paragrafos ul li:nth-child(3)::before{
+  content: "3";
+  background-color: gray;
+}
+
+
+.tela-paragrafos ul li:nth-child(4)::before{
+  content: "4";
+  background-color: blueviolet;
+}
+
+
+.tela-paragrafos ul li:nth-child(5)::before{
+  content: "5";
+  background-color: green;
+}
+
+
+.tela-paragrafos ul li:nth-child(6)::before{
+  content: "6";
+  background-color: blue;
 }
 
 .rodape{
