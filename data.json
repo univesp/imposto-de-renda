@@ -3,8 +3,7 @@
       {
         "titulo": "O que é",
         "paragrafo": "O Imposto de Renda Pessoa Física (IRPF) é um tributo federal brasileiro que incide sobre os ganhos de pessoas físicas. Ele é administrado pela Receita Federal do Brasil e é uma das principais fontes de receita para o governo",
-        "imagem": "LogoReceitaFederal",
-        "li": "teste"
+        "imagem": "LogoReceitaFederal"
       },
       {
         "titulo": "Quem deve declarar",
@@ -129,12 +128,14 @@
         "titulo":"Declaração Online",
         "paragrafo":"Na Declaração Online você vai precisar ter um login e senha no portal Gov.br.",
         "paragrafo2":"Após criar a senha e efetuar o login no Gov.br, clique no menu \"Serviços\":",
-        "imagem":"Programa3"
+        "imagem":"Programa3",
+        "imagem2": "tutorial1"
       },
       {
         "titulo":"Declaração Online",
         "paragrafo":"Escolha essa opção",
-        "imagem":"Programa3"
+        "imagem":"Programa3",
+        "imagem2": "tutorial2"
       },
       {
         "titulo":"Declaração Online",

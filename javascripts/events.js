@@ -160,7 +160,9 @@ fetch('data.json')
   function RenderizarTextoTela(){
     //cria o titulo e paragrafos
     const titulo = document.createElement("p");
+    titulo.className = `titulo-${num}`; //cria a classe do título
     const paragrafo1 = document.createElement("p");
+    paragrafo1.className = `paragrafo-${num}`; //cria a clase do paragrafo
     const paragrafo2 = document.createElement("p");
     const paragrafo3 = document.createElement("p");
     const para5 = document.createElement("p");
@@ -217,7 +219,6 @@ fetch('data.json')
       console.log("AQUI<=========================");
       createList();
     }
-
   }
   
   function RemoverTextoTela(){
@@ -240,6 +241,15 @@ fetch('data.json')
     }
 
     imagemTela.src = novoCaminho;
+
+    if (obj.texto[num].imagem2) {
+      const novaImagem = document.createElement('img');
+      novaImagem.src = `assets/${obj.texto[num].imagem2}.svg`;
+      novaImagem.alt = 'Imagem adicional';
+      novaImagem.className = `imagem-tutorial-${num}`;
+  
+      document.getElementById('teste').appendChild(novaImagem);
+    }
   }
 
   function createList() {
@@ -256,7 +266,4 @@ fetch('data.json')
     // Adiciona o <ul> ao contêiner no DOM
     document.getElementById("teste").appendChild(ul);
   }
-
-
-
 });

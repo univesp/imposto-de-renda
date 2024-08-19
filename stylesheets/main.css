@@ -331,3 +331,15 @@ width: 100%;
 .hidden-div{
   display: none;
 }
+
+.imagem-tutorial-18{
+  width: 600px;
+  height: auto;
+}
+
+.imagem-tutorial-19{
+  position: relative;
+  height: 300px;
+  width: auto;
+  margin-right: 300px;
+}
