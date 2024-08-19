@@ -3,7 +3,8 @@
       {
         "titulo": "O que é",
         "paragrafo": "O Imposto de Renda Pessoa Física (IRPF) é um tributo federal brasileiro que incide sobre os ganhos de pessoas físicas. Ele é administrado pela Receita Federal do Brasil e é uma das principais fontes de receita para o governo",
-        "imagem": "LogoReceitaFederal"
+        "imagem": "LogoReceitaFederal",
+        "li": "teste"
       },
       {
         "titulo": "Quem deve declarar",
@@ -260,11 +261,11 @@
       },
       {
         "titulo":"Preenchendo a declaração",
-        "imagem":"Text4" 
+        "imagem":"Texto4" 
       },
       {
         "titulo":"Preenchendo a declaração",
-        "imagem":"Text5"
+        "imagem":"Texto5"
       },
       {
         "titulo":"Preenchendo a declaração",
@@ -302,7 +303,34 @@
         "imagem":"Declaracao"
       },
       {
-
+        "titulo": "Enviando sua Declaração",
+        "paragrafo": "Depois de ter corrigido todas as pendências, agora é hora de enviar sua Declaração do IRPF à Receita Federal.",
+        "imagem": "Informacoes12"
+      },
+      {
+        "titulo": "Enviando sua Declaração",
+        "paragrafo": "Clique no botão \"Entregar Declaração\"",
+        "imagem": "Informacoes12"
+      },
+      {
+        "titulo": "Enviando sua Declaração",
+        "paragrafo": "Preencha com seus dados bancários para receber a restituição (caso haja).",
+        "imagem": "Informacoes12"
+      },
+      {
+        "titulo": "Imprimindo uma cópia da sua Declaração",
+        "paragrafo": "Clique na aba \"Transmitidas\"",
+        "imagem": "Impressora"
+      },
+      {
+        "titulo": "Imprimindo uma cópia da sua Declaração",
+        "paragrafo": "Selecione a declaração. No índice à sua direita aparecerão as opções de imprimir a declaração ou imprimir o comprovante de transmissão à Receita Federal. Basta clicar na opção desejada e prosseguir com a impressão.",
+        "imagem": "Impressora"
+      },
+      {
+        "titulo": "Pronto!",
+        "paragrafo": "Sua declaração declaração foi preenchida e entregue com sucesso!",
+        "imagem": "LogoReceitaFederal"
       }
     ]
   }

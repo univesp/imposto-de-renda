@@ -277,6 +277,12 @@ width: 100%;
   margin: 6px 0 0 -35px ;
 }
 
+.tela-paragrafos ul li:nth-child(7)::before{
+  content: "7";
+  background-color: rgb(0, 217, 255);
+  margin: 6px 0 0 -35px ;
+}
+
 .rodape{
   font-size: 15px;
   position: absolute;
@@ -325,4 +331,3 @@ width: 100%;
 .hidden-div{
   display: none;
 }
-
