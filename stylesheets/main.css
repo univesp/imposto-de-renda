@@ -83,22 +83,22 @@ width: 100%;
 }
 
 .ul li:nth-child(1){
-  background-color: red;
+  background-color: #00afaf;
 }
 .ul li:nth-child(2){
-  background-color: blue;
+  background-color: #ed3b48;
 }
 .ul li:nth-child(3){
-  background-color: orange;
+  background-color: #7155D8;
 }
 .ul li:nth-child(4){
-  background-color: silver;
+  background-color: #F2AD17;
 }
 .ul li:nth-child(5){
-  background-color: rebeccapurple;
+  background-color: #607989;
 }
 .ul li:nth-child(6){
-  background-color: green;
+  background-color: #AF1C27;
 }
 
 .ul li:hover{
@@ -113,6 +113,7 @@ width: 100%;
   width: 20px;
   height: 20px;
   padding: 0;
+  text-align: center;
 }
 
 .tela-conteudo button {
@@ -152,7 +153,7 @@ width: 100%;
 }
 
 .slide{
-  text-align: center;
+  text-align: left;
   padding: 0px;
 
   background-color: white;
@@ -160,7 +161,7 @@ width: 100%;
 }
 
 .slide p{
-  padding: 0px 10px;
+  padding: 10px 40px 10px 40px;
   position: relative;
 }
 
@@ -205,7 +206,7 @@ width: 100%;
 
 .tela-paragrafos ul li{
   width: 50%;
-  text-align: center;
+  text-align: left;
   font-size: .9rem;
   font-weight: bolder;
   padding-left: 30px;
@@ -216,12 +217,12 @@ width: 100%;
 
 .tela-paragrafos ul li:nth-child(odd){
   width: 170px;
-  bordeR:1px solid red;
+  bordeR:1px solid white;
 }
 
 .tela-paragrafos ul li:nth-child(even){
   margin-left: 30px;
-  border:1px solid blue;
+  border:1px solid white;
 }
 
 
@@ -238,49 +239,43 @@ width: 100%;
 
 .tela-paragrafos ul li:nth-child(1)::before{
   content: " 1 ";
-  background-color: red;
+  background-color: #00afaf;
   margin: 6px 0 0 -50px ;
 }
 
 
 .tela-paragrafos ul li:nth-child(2)::before{
   content: "2";
-  background-color: yellow;
-  margin: 6px 0 0 -45px ;
+  background-color: #ed3b48;
+  margin: 6px 0 0 -50px ;
 }
 
 
 .tela-paragrafos ul li:nth-child(3)::before{
   content: "3";
-  background-color: gray;
-  margin: 6px 0 0 -40px ;
+  background-color: #7155D8;
+  margin: 6px 0 0 -50px ;
 }
 
 
 .tela-paragrafos ul li:nth-child(4)::before{
   content: "4";
-  background-color: blueviolet;
-  margin: 6px 0 0 -35px ;
+  background-color: #F2AD17;
+  margin: 6px 0 0 -50px ;
 }
 
 
 .tela-paragrafos ul li:nth-child(5)::before{
   content: "5";
-  background-color: green;
-  margin: 6px 0 0 -45px ;
+  background-color: #607989;
+  margin: 6px 0 0 -50px ;
 }
 
 
 .tela-paragrafos ul li:nth-child(6)::before{
   content: "6";
-  background-color: blue;
-  margin: 6px 0 0 -35px ;
-}
-
-.tela-paragrafos ul li:nth-child(7)::before{
-  content: "7";
-  background-color: rgb(0, 217, 255);
-  margin: 6px 0 0 -35px ;
+  background-color: #AF1C27;
+  margin: 6px 0 0 -50px ;
 }
 
 .rodape{
@@ -338,8 +333,27 @@ width: 100%;
 }
 
 .imagem-tutorial-19{
-  position: relative;
+  position: absolute;
   height: 300px;
-  width: auto;
-  margin-right: 300px;
+  margin-left: -50px;
+  margin-top: -200px;
+}
+
+.titulo-19{
+  position: absolute;
+  z-index: 10;
+}
+
+.paragrafo-19{
+  position: absolute;
+  z-index: 10;
+  margin-left: 200px;
+}
+
+.titulo-0, .titulo-1, .titulo-2, .titulo-3{
+  text-align: center;
+}
+
+.paragrafo-0, .paragrafo-1, .paragrafo-2, .paragrafo-3{
+  text-align: center;
 }

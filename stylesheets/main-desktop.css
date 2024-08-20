@@ -13,7 +13,9 @@
       }
 
     nav .nav-link {
-    background-color: white;
+        margin-top: 20px;
+        color: white;
+        background-color: #607989;
     }
 
     .teste{
@@ -85,3 +87,7 @@
         width: 1142px;
     }
 }
+
+nav .logo img{
+    background-color: #c4d1d6;
+  }

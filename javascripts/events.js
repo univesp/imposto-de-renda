@@ -107,6 +107,15 @@ fetch('data.json')
   });
 // JSON 
 
+// Exemplo de uso
+const jsonText = JSON.stringify({
+  text: "Este é um exemplo de texto em JSON."
+});
+
+const searchTerm = "exemplo";
+const result = highlightText(jsonText, searchTerm);
+console.log(result);
+
   document.addEventListener('DOMContentLoaded', fetchData);
 
   function displayData(obj){ /*meu teste aqui na frente para ver as informações das variaveis*/ console.log(obj.texto[4].li[0].li)
@@ -164,11 +173,17 @@ fetch('data.json')
     const paragrafo1 = document.createElement("p");
     paragrafo1.className = `paragrafo-${num}`; //cria a clase do paragrafo
     const paragrafo2 = document.createElement("p");
+    paragrafo2.className = `paragrafo-${num}`; //cria a clase do paragrafo
     const paragrafo3 = document.createElement("p");
-    const para5 = document.createElement("p");
-    const para6 = document.createElement("p");
-    const para7 = document.createElement("p");
-    const para8 = document.createElement("p");
+    paragrafo3.className = `paragrafo-${num}`; //cria a clase do paragrafo
+    const paragrafo4 = document.createElement("p");
+    paragrafo4.className = `paragrafo-${num}`; //cria a clase do paragrafo
+    const paragrafo5 = document.createElement("p");
+    paragrafo5.className = `paragrafo-${num}`; //cria a clase do paragrafo
+    const paragrafo6 = document.createElement("p");
+    paragrafo6.className = `paragrafo-${num}`; //cria a clase do paragrafo
+    const paragrafo7 = document.createElement("p");
+    paragrafo7.className = `paragrafo-${num}`; //cria a clase do paragrafo
 
     const node1 = document.createTextNode(obj.texto[num].titulo);
     const node2 = document.createTextNode(obj.texto[num].paragrafo);
@@ -183,10 +198,10 @@ fetch('data.json')
     paragrafo1.appendChild(node2);
     paragrafo2.appendChild(node3);
     paragrafo3.appendChild(node4);
-    para5.appendChild(node5);
-    para6.appendChild(node6);
-    para7.appendChild(node7);
-    para8.appendChild(node8);
+    paragrafo4.appendChild(node5);
+    paragrafo5.appendChild(node6);
+    paragrafo6.appendChild(node7);
+    paragrafo7.appendChild(node8);
     //renderiza na tela o titulo e paragrafo
     if(obj.texto[num].titulo != undefined){
       document.getElementById("teste").appendChild(titulo);
@@ -201,16 +216,16 @@ fetch('data.json')
       document.getElementById("teste").appendChild(paragrafo3);
     }
     if(obj.texto[num].paragrafo4 != undefined){
-      document.getElementById("teste").appendChild(para5);
+      document.getElementById("teste").appendChild(paragrafo4);
     }
     if(obj.texto[num].paragrafo5 != undefined){
-      document.getElementById("teste").appendChild(para6);
+      document.getElementById("teste").appendChild(paragrafo5);
     }
     if(obj.texto[num].paragrafo6 != undefined){
-      document.getElementById("teste").appendChild(para7);
+      document.getElementById("teste").appendChild(paragrafo6);
     }
     if(obj.texto[num].paragrafo7 != undefined){
-      document.getElementById("teste").appendChild(para8);
+      document.getElementById("teste").appendChild(paragrafo7);
     }
 
     imagens();
@@ -267,3 +282,5 @@ fetch('data.json')
     document.getElementById("teste").appendChild(ul);
   }
 });
+
+//botões

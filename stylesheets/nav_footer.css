@@ -52,3 +52,16 @@ main {
     padding-bottom: 2rem;
   }
 }
+
+footer{
+  background-color: rgb(196, 209, 214);
+  color: #130691;
+}
+
+footer .sharing i{
+  color: #130691;
+}
+
+footer .aval-rea .btn-secondary {
+  border-color: #130691;
+}
