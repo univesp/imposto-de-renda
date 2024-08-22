@@ -41,78 +41,93 @@
           {"li": "CPF (Cadastro de Pessoa Física)"},
           {"li": "Título de Eleitor"},
           {"li": "RG (Registro Geral) ou outro documento de autentificação oficial"},
-          {"li": "Cópia da declaração do IRPF do ano anterior (caso tenha declarado)"},
-          {"li": "RG (Registro Geral) ou outro documento de autentificação oficial"},
-          {"li": "RG (Registro Geral) ou outro documento de autentificação oficial"}
+          {"li": "Cópia da declaração do IRPF do ano anterior (caso tenha declarado)"}
         ],
         "imagem": "Informacoes1"
       },
       {
         "titulo": "Reunindo as informações",
         "paragrafo": "Comprovantes de Rendimentos:",
-        "paragrafo2": "Informe de Rendimentos fornecido pelo empregador ou fontes pagadoras",
-        "paragrafo3": "Extratos bancários (contas correntes, poupança, investimentos)",
-        "paragrafo4": "Informes de instituições financeiras sobre aplicações e investimentos geral ou outro documento de identificação oficial",
+        "li":[
+          {"li": "Informe de Rendimentos fornecido pelo empregador ou fontes pagadoras"},
+          {"li": "Extratos bancários (contas correntes, poupança, investimentos)"},
+          {"li": "Informes de instituições financeiras sobre aplicações e investimentos geral ou outro documento de identificação oficial"}
+        ],
         "imagem": "Informacoes2"
       },
       {
         "titulo": "Reunindo as informações",
         "paragrafo": "Comprovantes de Pagamentos e Recebimentos:",
-        "paragrafo2": "Comprovantes de pagamento ou recebimento de aluguel",
-        "paragrafo3": "Comprovantes de pensão alimentícia (pagamentos ou recebimentos)",
-        "paragrafo4": "Comprovantes de despesas médicas e odontológicas",
+        "li":[
+          {"li": "Comprovantes de pagamento ou recebimento de aluguel"},
+          {"li": "Comprovantes de pensão alimentícia (pagamentos ou recebimentos)"},
+          {"li": "Comprovantes de despesas médicas e odontológicas"}
+        ],
         "imagem": "Informacoes3"
       },
       {
         "titulo": "Reunindo as informações",
         "paragrafo": "Comprovantes de Despesas Educacionais:",
-        "paragrafo2": "Recibo e comprovantes de mensalidades escolares",
-        "paragrafo3": "Comprovantes de gastos com educação formal (cursos técnicos, graduação, pós-graduação)",
+        "li":[
+          {"li": "Recibo e comprovantes de mensalidades escolares"},
+          {"li": "Comprovantes de gastos com educação formal (cursos técnicos, graduação, pós-graduação)"}
+        ],
         "imagem": "Informacoes4"
       },
       {
         "titulo": "Reunindo as informações",
         "paragrafo": "Documentos de Bens e Direitos:",
-        "paragrafo2": "Documentos que comprovem a compra ou venda de bens (imóveis, veículos, etc.)",
-        "paragrafo3": "Documentação de dívidas e ônus sobre os bens.",
+        "li":[
+          {"li": "Documentos que comprovem a compra ou venda de bens (imóveis, veículos, etc.)"},
+          {"li": "Documentação de dívidas e ônus sobre os bens."}
+        ],
         "imagem": "Informacoes5"
       },
       {
         "titulo": "Reunindo as informações",
         "paragrafo": "Informações sobre Dependentes:",
-        "paragrafo2": "CPF dos dependentes",
-        "paragrafo3": "Comprovantes de despesas com dependentes, como educação e saúde.",
+        "li":[
+          {"li": "CPF dos dependentes"},
+          {"li": "Comprovantes de despesas com dependentes, como educação e saúde."}
+        ],
         "imagem": "Informacoes6"
       },
       {
         "titulo":"Reunindo as informações",
         "paragrafo": "Informes de Planos de Saúde e Previdência:",
-        "paragrafo2": "Informes de pagamentos de planos de saúde",
-        "paragrafo3": "Informes de previdência privada",
+        "li":[
+          {"li": "Informes de pagamentos de planos de saúde"},
+          {"li": "Informes de previdência privada"}
+        ],
         "imagem": "Informacoes7"
       },
       {
         "titulo": "Reunindo as informações",
         "paragrafo": "Comprovantes de Pagamentos de Impostos:",
-        "paragrafo2": "Comprovantes de pagamentos de impostos com IPTU e IPVA",
+        "li":[
+          {"li": "Comprovantes de pagamentos de impostos com IPTU e IPVA"}
+        ],
         "imagem": "Informacoes8"
       },
       {
         "titulo": "Reunindo as informações",
         "paragrafo": "Documentos de Identificação Bancária:",
-        "paragrafo2": "Número da conta bancária e para restituição ou débito automáticos.",
+        "li":[
+          {"li": "Número da conta bancária e para restituição ou débito automáticos."}
+        ],
         "imagem": "Informacoes9"
-      },
-      {
-        "titulo":"Reunindo as informações",
-        "paragrafo":"Comprovantes de Pagamentos de Impostos:",
-        "paragrafo2":"Comprovantes de pagamentos de impostos com IPTU e IPVA",
-        "imagem":"Informacoes10"
       },
       {
         "titulo":"Reunindo as Informações",
         "paragrafo":"Declaração do Ano Anterior:",
-        "paragrafo2":"Cópia da declaração do IRPF do ano anterior (caso tenha declarado)",
+        "li":[
+          {"li": "Cópia da declaração do IRPF do ano anterior (caso tenha declarado)"}
+        ],
+        "imagem":"Informacoes10"
+      },
+      {
+        "titulo":"Reunindo as informações",
+        "paragrafo":"Lembre-se de manter todos os documentos organizados para facilitar o preenchimento da declaração",
         "imagem":"Informacoes11"
       },
       {
@@ -124,8 +139,10 @@
         "paragrafo":"ATENÇÃO!",
         "paragrafo2":"Todo ano o programa de Declaração do IRPF da Receita Federal é atualizado. Isso significa que você deverá refazer esse procedimento anualmente.",
         "paragrafo3":"A Receita Federal do Brasil disponibiliza 2 maneiras para você preencher a sua declaração:",
-        "paragrafo4":"Declaração online (2.1)",
-        "paragrafo5":"Através de Programa para Computador (2.2)",
+        "li":[
+          {"li": "Declaração online (2.1)"},
+          {"li": "Através de Programa para Computador (2.2)"}
+        ],
         "imagem":"Programa2"
       },
       {

@@ -169,7 +169,10 @@ console.log(result);
   function RenderizarTextoTela(){
     //cria o titulo e paragrafos
     const titulo = document.createElement("p");
-    titulo.className = `titulo-${num}`; //cria a classe do título
+    if(num<5){
+      titulo.className = `titulo-inicial`; //cria a classe do título inicial
+    }
+    else titulo.className = `titulo-princiapl`; //cria a classe do título principal
     const paragrafo1 = document.createElement("p");
     paragrafo1.className = `paragrafo-${num}`; //cria a clase do paragrafo
     const paragrafo2 = document.createElement("p");
@@ -230,14 +233,16 @@ console.log(result);
 
     imagens();
 
-      if((num+1)== 5){ //resolver aqui e criar lista
+    //função para criar a lista na página 5
+      if((num+1)== 5){ 
       console.log("AQUI<=========================");
       createList();
   }
 
+
 // Função definir paginas com lista de paragrafos
 
-    const pagesWithLists = [6]; // Adicione os números das páginas onde deseja criar listas
+    const pagesWithLists = [6,7,8,9,10,11,12,13,14,15,18]; // números das páginas onde deseja criar listas
     // Verifica se a página atual precisa de uma lista
     if (pagesWithLists.includes(num + 1)) {
     console.log("Criando lista na página:", num + 1);
@@ -276,23 +281,33 @@ console.log(result);
     }
   }
 
-  // Função criar lista paragrafos
+
+  //função criar lista de paragrafos
 
   function paragraphList(pageIndex) {
     // Cria o elemento <ul>
     const ul = document.createElement('ul');
     ul.className = `lista-ul-${num}`; //cria a clase da lista
     
-    // Cria e adiciona 6 elementos <li> ao <ul>
-    for (let i = 0; i <= 5; i++) {
+    // Obtém o número de elementos na lista da página atual
+    const items = obj.texto[pageIndex - 1].li;
+    const numItems = items.length;
+    
+    // Cria e adiciona elementos <li> ao <ul>
+    for (let i = 0; i < numItems; i++) {
         const li = document.createElement('li');
-        li.textContent = `${obj.texto[pageIndex - 1].li[i].li}`; // Usa o índice da página para acessar o texto correto
+        li.className = `lista-li-${num}`; //cria a clase da lista
+        li.textContent = `${items[i].li}`; // Define o texto do <li>
         ul.appendChild(li); // Adiciona o <li> ao <ul>
     }
   
-    // Adiciona o <ul> ao contêiner no DOM
-    document.getElementById("teste").appendChild(ul);
+    // Adiciona o <ul> ao contêiner no DOM, se houver itens
+    if (numItems > 0) {
+        document.getElementById("teste").appendChild(ul);
+    }
 }
+
+//função criar lista menu página 5
 
   function createList() {
     // Cria o elemento <ul>
