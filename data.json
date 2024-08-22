@@ -37,10 +37,14 @@
         "paragrafo": "Para elaborar a declaração do Imposto de Renda Pessoa Física (IRPF) no Brasil, é essencial reunir uma série de documentos que comprovem os seus rendimentos, despesas, investimentos e outras informações relevantes.",
         "paragrafo2": "Abaixo, uma lista geral de documentos que você pode precisar para realizar a sua declaração:",
         "paragrafo3": "Documentos pessoais:",
-        "paragrafo4": "CPF (Cadastro de Pessoa Física)",
-        "paragrafo5": "Título de Eleitor",
-        "paragrafo6": "RG (Registro Geral) ou outro documento de autentificação oficial",
-        "paragrafo7": "Cópia da declaração do IRPF do ano anterior (caso tenha declarado)",
+        "li":[
+          {"li": "CPF (Cadastro de Pessoa Física)"},
+          {"li": "Título de Eleitor"},
+          {"li": "RG (Registro Geral) ou outro documento de autentificação oficial"},
+          {"li": "Cópia da declaração do IRPF do ano anterior (caso tenha declarado)"},
+          {"li": "RG (Registro Geral) ou outro documento de autentificação oficial"},
+          {"li": "RG (Registro Geral) ou outro documento de autentificação oficial"}
+        ],
         "imagem": "Informacoes1"
       },
       {

@@ -230,12 +230,21 @@ console.log(result);
 
     imagens();
 
-    if((num+1) == 5){
+      if((num+1)== 5){ //resolver aqui e criar lista
       console.log("AQUI<=========================");
       createList();
-    }
   }
-  
+
+// Função definir paginas com lista de paragrafos
+
+    const pagesWithLists = [6]; // Adicione os números das páginas onde deseja criar listas
+    // Verifica se a página atual precisa de uma lista
+    if (pagesWithLists.includes(num + 1)) {
+    console.log("Criando lista na página:", num + 1);
+    paragraphList(num + 1); // Passe a página atual para a função
+    }
+}
+
   function RemoverTextoTela(){
     document.getElementById("teste").removeChild(teste.firstChild);
     while (teste.firstChild) {
@@ -267,13 +276,33 @@ console.log(result);
     }
   }
 
+  // Função criar lista paragrafos
+
+  function paragraphList(pageIndex) {
+    // Cria o elemento <ul>
+    const ul = document.createElement('ul');
+    ul.className = `lista-ul-${num}`; //cria a clase da lista
+    
+    // Cria e adiciona 6 elementos <li> ao <ul>
+    for (let i = 0; i <= 5; i++) {
+        const li = document.createElement('li');
+        li.textContent = `${obj.texto[pageIndex - 1].li[i].li}`; // Usa o índice da página para acessar o texto correto
+        ul.appendChild(li); // Adiciona o <li> ao <ul>
+    }
+  
+    // Adiciona o <ul> ao contêiner no DOM
+    document.getElementById("teste").appendChild(ul);
+}
+
   function createList() {
     // Cria o elemento <ul>
     const ul = document.createElement('ul');
+    ul.className = `lista-ul-${num}`; //cria a clase da ul
     
     // Cria e adiciona 6 elementos <li> ao <ul>
     for (let i = 0; i <= 5; i++) {
       const li = document.createElement('li');
+      li.className = `lista-li-${num}`; //cria a clase da lista
       li.textContent = `${obj.texto[4].li[i].li}`; // Define o texto do <li>
       ul.appendChild(li); // Adiciona o <li> ao <ul>
     }
@@ -282,5 +311,3 @@ console.log(result);
     document.getElementById("teste").appendChild(ul);
   }
 });
-
-//botões

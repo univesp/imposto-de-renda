@@ -58,10 +58,10 @@
         font-weight: 900;
         font-size: 2rem;
     }
-    
+    /*
     #teste p:not(:nth-child(1)){
-        font-size: 1.3rem;
-    }
+        font-size: 14px;
+    }*/
 
     .tela-paragrafos{
         width: 120%;

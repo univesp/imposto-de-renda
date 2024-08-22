@@ -356,4 +356,15 @@ width: 100%;
 
 .paragrafo-0, .paragrafo-1, .paragrafo-2, .paragrafo-3{
   text-align: center;
+  font-size: 14px;
+}
+
+p{
+  font-size: 14px;
+  text-align: justify;
+  padding: 0;
+}
+
+.lista-ul-5{
+  font-size: 16pt;
 }
