@@ -20,10 +20,6 @@ main{
   margin: 0;
 }
 
-.teste{
-  /* height: 100vh; */
-}
-
 .container{
   padding: 0;
 }
@@ -161,8 +157,8 @@ width: 100%;
 }
 
 .slide p{
-  padding: 0px 40px 0px 40px;
-  position: relative;
+  padding: 0px 20px 0px 20px;
+  /*position: relative;*/
 }
 
 .slide .image{
@@ -202,6 +198,8 @@ width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 170px;
+  margin-left: 70px;
 }
 
 .tela-paragrafos .lista-ul-4 .lista-li-4{
@@ -295,6 +293,11 @@ width: 100%;
   font-size: 1.2rem;
 }*/
 
+#teste{
+  width: 100%;
+  height: 100%;
+}
+
 .botoes{
   display: flex;
   justify-content: space-around;
@@ -330,13 +333,14 @@ width: 100%;
 .imagem-tutorial-18{
   width: 600px;
   height: auto;
+  margin-top: 30px;
 }
 
 .imagem-tutorial-19{
-  position: absolute;
+  position: relative;
   height: 300px;
-  margin-left: -50px;
-  margin-top: -200px;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
 .titulo-19{
@@ -347,7 +351,8 @@ width: 100%;
 .paragrafo-19{
   position: absolute;
   z-index: 10;
-  margin-left: 200px;
+  margin-left: 350px;
+  margin-top: 175px;
 }
 
 .titulo-inicial{
@@ -355,9 +360,11 @@ width: 100%;
   color: #013475;
   font-weight: 900;
   font-size: 2rem;
+  margin-top: 200px;
 }
 
-.paragrafo-0, .paragrafo-1, .paragrafo-2, .paragrafo-3{
+.paragrafo-0, .paragrafo-1, .paragrafo-2, .paragrafo-3, .paragrafo-60{
+  position: relative;
   text-align: center;
   font-size: 16px;
 }
@@ -377,4 +384,103 @@ p{
 .titulo-princiapl{
   font-size: 16px;
   font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 80px;
+  margin-left: 60px;
+}
+
+.numeração-1{
+  color: aliceblue;
+  border-radius: 50%;
+  border: 10px solid #00afaf;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  background-color: #00afaf;
+  font-weight: bold;
+  font-size: 20px;
+  box-sizing: content-box;
+  width: 30px;
+  margin-left: 15px;
+  margin-top: 70px;
+}
+
+.numeração-2{
+  color: aliceblue;
+  border-radius: 50%;
+  border: 10px solid #ed3b48;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  background-color: #ed3b48;
+  font-weight: bold;
+  font-size: 20px;
+  box-sizing: content-box;
+  width: 30px;
+  margin-left: 15px;
+  margin-top: 70px;
+}
+
+.numeração-3{
+  color: aliceblue;
+  border-radius: 50%;
+  border: 10px solid #7155D8;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  background-color: #7155D8;
+  font-weight: bold;
+  font-size: 20px;
+  box-sizing: content-box;
+  width: 30px;
+  margin-left: 15px;
+  margin-top: 70px;
+}
+
+.numeração-4{
+  color: aliceblue;
+  border-radius: 50%;
+  border: 10px solid #F2AD17;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  background-color: #F2AD17;
+  font-weight: bold;
+  font-size: 20px;
+  box-sizing: content-box;
+  width: 30px;
+  margin-left: 15px;
+  margin-top: 70px;
+}
+
+.numeração-5{
+  color: aliceblue;
+  border-radius: 50%;
+  border: 10px solid #607989;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  background-color: #607989;
+  font-weight: bold;
+  font-size: 20px;
+  box-sizing: content-box;
+  width: 30px;
+  margin-left: 15px;
+  margin-top: 70px;
+}
+
+.numeração-6{
+  color: aliceblue;
+  border-radius: 50%;
+  border: 10px solid #AF1C27;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  background-color: #AF1C27;
+  font-weight: bold;
+  font-size: 20px;
+  box-sizing: content-box;
+  width: 30px;
+  margin-left: 15px;
+  margin-top: 70px;
 }

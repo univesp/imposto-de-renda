@@ -167,9 +167,29 @@ console.log(result);
 }
 
   function RenderizarTextoTela(){
-    //cria o titulo e paragrafos
+    //cria o titulo, númeração e paragrafos
+    const numeração = document.createElement("h");
+    if(num+1>=6 && num+1<=16){
+    numeração.className = `numeração-1`; //condição para criar a clase da primeira numeração
+    }
+    if(num+1>=17 && num+1<=35){
+    numeração.className = `numeração-2`; //condição para criar a clase da segunda numeração
+    }
+    if(num+1>=36 && num+1<=53){
+    numeração.className = `numeração-3`; //condição para criar a clase da terceira numeração
+    }
+    if(num+1==54 || num+1==55){
+    numeração.className = `numeração-4`; //condição para criar a clase da quarta numeração
+    }
+    if(num+1>=56 && num+1<=58){
+    numeração.className = `numeração-5`; //condição para criar a clase da quinta numeração
+    }
+    if(num+1==59 || num+1==60){
+    numeração.className = `numeração-6`; //condição para criar a clase da sexta numeração
+    }
+
     const titulo = document.createElement("p");
-    if(num<5){
+    if(num<5 || num+1==61){
       titulo.className = `titulo-inicial`; //cria a classe do título inicial
     }
     else titulo.className = `titulo-princiapl`; //cria a classe do título principal
@@ -188,6 +208,7 @@ console.log(result);
     const paragrafo7 = document.createElement("p");
     paragrafo7.className = `paragrafo-${num}`; //cria a clase do paragrafo
 
+    const node0 = document.createTextNode(obj.texto[num].numeração);
     const node1 = document.createTextNode(obj.texto[num].titulo);
     const node2 = document.createTextNode(obj.texto[num].paragrafo);
     const node3 = document.createTextNode(obj.texto[num].paragrafo2);
@@ -197,6 +218,7 @@ console.log(result);
     const node7 = document.createTextNode(obj.texto[num].paragrafo6);
     const node8 = document.createTextNode(obj.texto[num].paragrafo7);
 
+    numeração.appendChild(node0);
     titulo.appendChild(node1);
     paragrafo1.appendChild(node2);
     paragrafo2.appendChild(node3);
@@ -206,6 +228,9 @@ console.log(result);
     paragrafo6.appendChild(node7);
     paragrafo7.appendChild(node8);
     //renderiza na tela o titulo e paragrafo
+    if(obj.texto[num].numeração != undefined){
+      document.getElementById("teste").appendChild(numeração);
+    }
     if(obj.texto[num].titulo != undefined){
       document.getElementById("teste").appendChild(titulo);
     }
