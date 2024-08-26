@@ -171,49 +171,68 @@
         "titulo":"Declaração Online",
         "paragrafo":"Escolha essa opção",
         "imagem":"Programa3",
-        "imagem2": "tutorial2"
+        "imagem2": "tutorial2",
+        "destaque": " "
       },
       {
         "numeração": "2.1",
         "titulo":"Declaração Online",
         "paragrafo":"Escolha essa opção",
-        "imagem":"Programa3"
+        "imagem":"Programa3",
+        "imagem2":"tutorial3",
+        "destaque": " "
       },
       {
         "numeração": "2.1",
         "titulo":"Declaração Online",
         "paragrafo":"Escolha essa opção",
-        "imagem":"Programa3"
+        "imagem":"Programa3",
+        "imagem2":"tutorial4",
+        "destaque": " "
       },
       {
         "numeração": "2.1",
         "titulo":"Declaração Online",
         "paragrafo":"Escolha essa opção",
-        "imagem":"Programa3"
+        "imagem":"Programa3",
+        "imagem2":"tutorial5",
+        "destaque": " "
       },
       {
         "numeração": "2.1",
         "titulo":"Declaração Online",
         "paragrafo":"Clique em iniciar",
-        "imagem":"Programa3"
+        "imagem":"Programa3",
+        "imagem2":"tutorial6",
+        "destaque": " ",
+        "blocoBranco": " "
       },
       {
         "numeração": "2.1",
         "titulo":"Declaração Online",
         "paragrafo":"Preencha com seu CPF para confirmar",
-        "imagem":"Programa3"
+        "imagem":"Programa3",
+        "imagem2": "tutorial7",
+        "destaque": "",
+        "blocoBranco": ""
       },
       {
         "numeração": "2.1",
         "titulo":"Declaração Online",
-        "paragrafo":"Digite sua senha e clique em \"Enviar\"",
-        "imagem":"Programa3"
+        "paragrafo":"Digite sua senha e clique em \"Entrar\"",
+        "imagem":"Programa3",
+        "imagem2": "tutorial8",
+        "destaque": " ",
+        "blocoBranco": ""
       },
       {
         "numeração": "2.1",
         "titulo":"Declaração Online",
         "paragrafo":"Clique em \"Fazer Declaração\"",
-        "paragrafo2":"No próximo passo você será levado à tela do preenchimento da sua declaração, a qual veremos com detalhes no item 3: Preenchimento da Declaração.","imagem":"Programa3"
+        "paragrafo2":"No próximo passo você será levado à tela do preenchimento da sua declaração, a qual veremos com detalhes no item 3: Preenchimento da Declaração.","imagem":"Programa3",
+        "imagem2":"tutorial9",
+        "destaque":" ",
+        "blocoBranco": " "
       },
       {
         "numeração": "2.2",
