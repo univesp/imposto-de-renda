@@ -223,6 +223,7 @@
         "imagem":"Programa3",
         "imagem2": "tutorial8",
         "destaque": " ",
+        "destaque2": "",
         "blocoBranco": ""
       },
       {
@@ -236,45 +237,61 @@
       },
       {
         "numeração": "2.2",
-        "titulo":"Programa para Computador","paragrafo":"No seu navegador, digite: \"Download IRPF 2024\"","paragrafo2":"Em seguida, clique na opção \"Download do Programa de Imposto de Renda\".","imagem":"Computador"
+        "titulo":"Programa para Computador",
+        "paragrafo":"No seu navegador, digite: \"Download IRPF 2024\"",
+        "paragrafo2":"Em seguida, clique na opção \"Download do Programa de Imposto de Renda\".",
+        "imagem":"Computador",
+        "imagem2": "tutorial10"
       },
       {
         "numeração": "2.2",
-        "titulo":"Programa para Computador","paragrafo":"Clique em \"Baixar programa\"","imagem":"Programa1"
+        "titulo":"Programa para Computador",
+        "paragrafo":"Clique em \"Baixar programa\"",
+        "imagem":"Programa1",
+        "imagem2": "tutorial11",
+        "destaque": " "
       },
       {
         "numeração": "2.2",
         "titulo":"Programa para Computador",
         "paragrafo":"Escolha a pasta de destino do instalador e clique em \"Salvar\"",
-        "imagem":"Programa1"
+        "imagem":"Programa1",
+        "imagem2": "tutorial12"
       },
       {
         "numeração": "2.2",
         "titulo":"Programa para Computador",
         "paragrafo":"Clique em \"Avançar\"",
-        "imagem":"Programa1"
+        "imagem":"Programa1",
+        "imagem2": "tutorial13"
       },
       {
         "numeração": "2.2",
         "titulo":"Programa para Computador",
         "paragrafo":"Aguarde a instalação",
-        "imagem":"Programa1"
+        "imagem":"Programa1",
+      "imagem2": "tutorial14"
       },
       {
         "numeração": "2.2",
-        "titulo":"Programa para computador","paragrafo":"Concluída a instalação, clicar em \"Terminar.\"","imagem":"Programa1"
+        "titulo":"Programa para computador",
+        "paragrafo":"Concluída a instalação, clicar em \"Terminar.\"",
+        "imagem":"Programa1",
+        "imagem2": "tutorial15"
       },
       {
         "numeração": "2.2",
         "titulo":"Programa para computador",
         "paragrafo":"Vá ao local onde salvou o arquivo, e clique duas vezes para abrir o programa.",
-        "imagem":"Programa1"
+        "imagem":"Programa1",
+        "imagem2": "tutorial16"
       },
       {
         "numeração": "2.2",
         "titulo":"Programa para Computador",
         "paragrafo":"Pronto! Depois de concluída a instalação, vamos ao preenchimento da Declaração do seu IRPF.",
-        "imagem":"Programa1"
+        "imagem":"Programa1",
+        "imagem2": "tutorial17"
       },
       {
         "numeração": "3",
@@ -288,98 +305,135 @@
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Essa é a tela inicial do programa de declaração:",
-        "imagem":"Declaracao"
+        "imagem":"Declaracao",
+        "imagem2": "tutorial18"
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Clicar em \"Iniciar Declaração em Branco\"",
-        "imagem":"Declaracao"
+        "imagem":"Declaracao",
+        "imagem2": "tutorial18",
+        "destaque": " "
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Preencher dados com seu CPF e Nome completo nos respectivos campos e, em seguida, clicar em \"OK\".",
-        "imagem":"Declaracao"
+        "imagem":"Declaracao",
+        "imagem2": "tutorial20",
+        "destaque": ""
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Nas \"Fichas de Declaração\" escolher \"Identificação do Contribuinte\"",
-        "imagem":"Declaracao" 
+        "imagem":"Declaracao",
+        "imagem2": "tutorial21",
+        "destaque": "" 
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
-        "imagem":"Texto2"
+        "imagem":"Texto2",
+        "imagem2": "tutorial22",
+        "destaque": "",
+        "destaque2": "",
+        "destaque3": ""
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
-        "imagem":"Texto3"
+        "imagem":"Texto3",
+        "imagem2": "tutorial23",
+        "imagem3": "tutorial24"
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Nas \"Fichas de Declaração\" escolher \"Dependentes\". Caso não possua dependentes, pule essa etapa.",
-        "imagem":"Declaracao" 
+        "imagem":"Declaracao",
+        "imagem2": "tutorial25",
+        "destaque": "" 
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Para incluir os dados do dependente, clique em \"Novo\".",
-        "imagem":"Declaracao"
+        "imagem":"Declaracao",
+        "imagem2": "tutorial26",
+        "destaque": ""
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
-        "paragrafo":"Preencher os dados do dependente e em seguida clicar em \"OK\" (caso tenha mais de 1 dependente, após clicar em \"OK\" refaça o passo-a-passo)","imagem":"Declaracao"
+        "paragrafo":"Preencher os dados do dependente e em seguida clicar em \"OK\" (caso tenha mais de 1 dependente, após clicar em \"OK\" refaça o passo-a-passo)","imagem":"Declaracao",
+        "imagem2": "tutorial27"
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Inserir os dados da fonte pagadora e os valores dos rendimentos. Em seguida, clicar em \"OK\"",
-        "imagem":"Declaracao"
+        "imagem":"Declaracao",
+        "imagem2": "tutorial28",
+        "destaque": ""
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
-        "imagem":"Texto4" 
+        "imagem":"Texto4",
+        "imagem2": "tutorial29",
+        "imagem3": "tutorial30",
+        "destaque":"",
+        "destaque2":"" 
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
-        "imagem":"Texto5"
+        "imagem":"Texto5",
+        "imagem2": "tutorial31",
+        "imagem3": "tutorial32",
+        "destaque": ""
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Agora, vamos informar as despesas que tivemos ao longo do ano com médicos, dentistas, hospitais, educação etc.",
-        "imagem":"Declaracao"
+        "imagem":"Declaracao",
+        "imagem2": "tutorial33",
+        "destaque": ""
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Após escolher o tipo e despesa, preencher os dados como CNPJ, nome e descrição da despesa. Em seguida, clique em \"OK\".",
-        "imagem":"Declaracao"
+        "imagem":"Declaracao",
+        "imagem2": "tutorial34",
+        "destaque": ""
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Declaração de Bens e Direitos: nessa ficha você vai declarar todos os seus bens, tais como imóveis, automóvel, etc. Não se esquceça de declarar todos os seus bens, um por um. Clique em \"Novo\" para começar a preencher a ficha.",
-        "imagem":"Declaracao"
+        "imagem":"Declaracao",
+        "imagem2": "tutorial35",
+        "destaque": ""
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Escolha o grupo (tipo) de bem e preencha com as informações solicitadas.",
-        "imagem":"Declaracao"
+        "imagem":"Declaracao",
+        "imagem2": "tutorial36",
+        "destaque": ""
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Se você tiver contraído algum empréstimo ou tem  alguma dívida, você vai declara em \"Dívidas e Ônus Reais\" e clicar em \"Novo\".",
-        "imagem":"Declaracao"
+        "imagem":"Declaracao",
+        "imagem2": "tutorial37",
+        "destaque": ""
       },
       {
         "numeração": "4",
@@ -391,7 +445,10 @@
         "titulo":"Conferindo/Salvando sua declaração",
         "paragrafo":"Para isso basta clicar no botão \"Verificar Pendências\", localizado na parte inferior da lista das Fichas de Declaração.",
         "paragrafo2":"Corrigir/complementar as informações que aparecem no campo \"Pendências\"",
-        "imagem":"Declaracao"
+        "imagem":"Declaracao",
+        "imagem2": "tutorial38",
+        "destaque": "",
+        "destaque2": ""
       },
       {
         "numeração": "5",
@@ -403,25 +460,30 @@
         "numeração": "5",
         "titulo": "Enviando sua Declaração",
         "paragrafo": "Clique no botão \"Entregar Declaração\"",
-        "imagem": "Informacoes12"
+        "imagem": "Informacoes12",
+        "imagem2": "tutorial39",
+        "destaque": ""
       },
       {
         "numeração": "5",
         "titulo": "Enviando sua Declaração",
         "paragrafo": "Preencha com seus dados bancários para receber a restituição (caso haja).",
-        "imagem": "Informacoes12"
+        "imagem": "Informacoes12",
+        "imagem2": "tutorial40"
       },
       {
         "numeração": "6",
         "titulo": "Imprimindo uma cópia da sua Declaração",
         "paragrafo": "Clique na aba \"Transmitidas\"",
-        "imagem": "Impressora"
+        "imagem": "Impressora",
+        "imagem2": "tutorial41"
       },
       {
         "numeração": "6",
         "titulo": "Imprimindo uma cópia da sua Declaração",
         "paragrafo": "Selecione a declaração. No índice à sua direita aparecerão as opções de imprimir a declaração ou imprimir o comprovante de transmissão à Receita Federal. Basta clicar na opção desejada e prosseguir com a impressão.",
-        "imagem": "Impressora"
+        "imagem": "Impressora",
+        "imagem2": "tutorial42"
       },
       {
         "titulo": "Pronto!",

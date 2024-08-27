@@ -171,6 +171,10 @@ console.log(result);
 
     const destaque = document.createElement("div");
     destaque.className = `destaque-${num}`; //cria a clase da div de destaque em vermelho
+    const destaque2 = document.createElement("div");
+    destaque2.className = `destaque-2-${num}`; //cria a clase da div de destaque em vermelho
+    const destaque3 = document.createElement("div");
+    destaque3.className = `destaque-3-${num}`; //cria a clase da div de destaque em vermelho
     const blocoBranco = document.createElement("div");
     blocoBranco.className = `bloco-branco-${num}`; //cria a clase da div bloco branco para cobrir dados pessoais
     const numeração = document.createElement("div");
@@ -226,7 +230,10 @@ console.log(result);
     const node7 = document.createTextNode(obj.texto[num].paragrafo6);
     const node8 = document.createTextNode(obj.texto[num].paragrafo7);
     const node9 = document.createTextNode(obj.texto[num].destaque);
-    const node10 = document.createTextNode(obj.texto[num].blocoBranco);
+    const node10 = document.createTextNode(obj.texto[num].destaque2);
+    const node11 = document.createTextNode(obj.texto[num].destaque3);
+    const node12 = document.createTextNode(obj.texto[num].blocoBranco);
+    
 
     numeração.appendChild(node0);
     titulo.appendChild(node1);
@@ -238,8 +245,12 @@ console.log(result);
     paragrafo6.appendChild(node7);
     paragrafo7.appendChild(node8);
     destaque.appendChild(node9);
-    blocoBranco.appendChild(node10);
+    destaque2.appendChild(node10);
+    destaque3.appendChild(node11);
+    blocoBranco.appendChild(node12);
+
     //renderiza na tela o titulo, paragrafo e numeração
+
     if(obj.texto[num].numeração != undefined){
       document.getElementById("teste").appendChild(numeração);
     }
@@ -269,6 +280,12 @@ console.log(result);
     }
     if(obj.texto[num].destaque!= undefined){
       document.getElementById("teste").appendChild(destaque);
+    }
+    if(obj.texto[num].destaque2!= undefined){
+      document.getElementById("teste").appendChild(destaque2);
+    }
+    if(obj.texto[num].destaque3!= undefined){
+      document.getElementById("teste").appendChild(destaque3);
     }
     if(obj.texto[num].blocoBranco!= undefined){
       document.getElementById("teste").appendChild(blocoBranco);
@@ -322,7 +339,18 @@ console.log(result);
   
       document.getElementById('teste').appendChild(novaImagem);
     }
+
+    if (obj.texto[num].imagem3) {
+      const novaImagem = document.createElement('img');
+      novaImagem.src = `assets/${obj.texto[num].imagem3}.svg`;
+      novaImagem.alt = 'Imagem adicional';
+      novaImagem.className = `imagem-tutorial-2-${num}`;
+  
+      document.getElementById('teste').appendChild(novaImagem);
+    }
   }
+
+  
 
 
   //função criar lista de paragrafos

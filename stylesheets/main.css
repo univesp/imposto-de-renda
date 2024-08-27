@@ -615,7 +615,7 @@ p{
 .paragrafo-23{
   position: absolute;
   z-index: 10;
-  margin-left: 350px;
+  margin-left: 335px;
   margin-top: 315px;
 }
 
@@ -637,7 +637,7 @@ p{
   border-top: transparent;
   width: 20px;
   height: 70px;
-  margin-left: 75px;
+  margin-left: 60px;
   margin-top: 57px;
 }
 
@@ -734,6 +734,18 @@ p{
   margin-top: 147px;
 }
 
+.destaque-2-25{
+  content: "";
+  position: absolute;
+  border: 1px solid black;
+  width: 135px;
+  height: 15px;
+  z-index: 11;
+  margin-left: 460px;
+  margin-top: 78px;
+  border-radius: 5%;
+}
+
 .bloco-branco-25{
   content: "";
   position: absolute;
@@ -793,4 +805,452 @@ p{
   margin-left: 485px;
   margin-top: -350px;
   z-index: 10;
+}
+
+.imagem-tutorial-27{
+  width: 600px;
+  height: auto;
+  margin-top: 30px;
+}
+
+.imagem-tutorial-28{
+  width: auto;
+  height: 300px;
+  margin-left: 20px;
+}
+
+.destaque-28{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 100px;
+  height: 35px;
+  z-index: 10;
+  margin-left: 325px;
+  margin-top: 210px;
+}
+
+.imagem-tutorial-29{
+  width: auto;
+  height: 300px;
+  margin-left: 20px;
+}
+
+.imagem-tutorial-30{
+  width: auto;
+  height: 300px;
+  margin-left: 20px;
+}
+
+.imagem-tutorial-31{
+  width: auto;
+  height: 300px;
+  margin-left: 20px;
+}
+
+.imagem-tutorial-32{
+  width: auto;
+  height: 300px;
+  margin-left: 20px;
+}
+
+.imagem-tutorial-33{
+  width: auto;
+  height: 300px;
+  margin-left: 150px;
+}
+
+.imagem-tutorial-34{
+  width: auto;
+  height: 260px;
+  margin-left: 20px;
+}
+
+.imagem-tutorial-36{
+  width: auto;
+  height: 300px;
+  margin-left: 20px;
+}
+
+.imagem-tutorial-37{
+  width: auto;
+  height: 300px;
+  margin-left: 20px;
+}
+
+.destaque-37{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 145px;
+  height: 15px;
+  z-index: 10;
+  margin-left: 365px;
+  margin-top: 180px;
+}
+
+.imagem-tutorial-38{
+  width: auto;
+  height: 260px;
+  margin-left: 20px;
+}
+
+.destaque-38{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 250px;
+  height: 40px;
+  z-index: 10;
+  margin-left: 200px;
+  margin-top: 180px;
+}
+
+.imagem-tutorial-39{
+  width: auto;
+  height: 260px;
+  margin-left: 20px;
+}
+
+.destaque-39{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 120px;
+  height: 15px;
+  z-index: 10;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.imagem-tutorial-40{
+  width: auto;
+  height: 330px;
+  margin-left: 20px;
+}
+
+.destaque-40{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 130px;
+  height: 20px;
+  z-index: 10;
+  margin-left: 225px;
+  margin-top: 85px;
+}
+
+.destaque-2-40{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 390px;
+  height: 185px;
+  z-index: 10;
+  margin-left: 195px;
+  margin-top: 140px;
+}
+
+.destaque-3-40{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 80px;
+  height: 15px;
+  z-index: 10;
+  margin-left: 405px;
+  margin-top: 105px;
+}
+
+.imagem-tutorial-41{
+  width: auto;
+  height: 150px;
+  margin-left: 180px;
+  margin-bottom: 30px;
+}
+
+.imagem-tutorial-2-41{
+  width: auto;
+  height: 150px;
+  margin-left: 180px;
+  display: flex;
+}
+
+.imagem-tutorial-42{
+  width: auto;
+  height: 270px;
+  margin-left: 20px;
+}
+
+.destaque-42{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+  margin-left: 225px;
+  margin-top: 60px;
+}
+
+.imagem-tutorial-43{
+  width: auto;
+  height: 270px;
+  margin-left: 20px;
+}
+
+.destaque-43{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 50px;
+  height: 20px;
+  z-index: 10;
+  margin-left: 475px;
+  margin-top: 255px;
+}
+
+.imagem-tutorial-44{
+  width: auto;
+  height: 270px;
+  margin-left: 20px;
+}
+
+.imagem-tutorial-45{
+  width: auto;
+  height: 270px;
+  margin-left: 20px;
+}
+
+.destaque-45{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 55px;
+  height: 30px;
+  z-index: 10;
+  margin-left: 265px;
+  margin-top: 235px;
+}
+
+.imagem-tutorial-46{
+  width: auto;
+  height: 250px;
+  margin-left: 20px;
+}
+
+.imagem-tutorial-2-46{
+  display: flex;
+  position: absolute;
+  width: auto;
+  height: 140px;
+  margin-left: 130px;
+  margin-top: -50px;
+}
+
+.destaque-46{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 130px;
+  height: 15px;
+  z-index: 10;
+  margin-left: 20px;
+  margin-top: 110px;
+}
+
+.destaque-2-46{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 460px;
+  height: 140px;
+  z-index: 10;
+  margin-left: 130px;
+  margin-top: 200px;
+}
+
+.destaque-2-46:before{
+  content: "";
+  position: absolute;
+  border: 1px solid #D13239;
+  height: 110px;
+  margin-left: 360px;
+  margin-top: -110px;
+}
+
+.imagem-tutorial-47{
+  width: auto;
+  height: 300px;
+  margin-left: 20px;
+}
+
+.imagem-tutorial-2-47{
+  display: flex;
+  position: absolute;
+  width: auto;
+  height: 70px;
+  margin-left: 205px;
+  margin-top: -170px;
+}
+
+.destaque-47{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 150px;
+  height: 20px;
+  z-index: 10;
+  margin-left: 20px;
+  margin-top: 142px;
+}
+
+.imagem-tutorial-48{
+  width: auto;
+  height: 270px;
+  margin-left: 20px;
+}
+
+.destaque-48{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 130px;
+  height: 15px;
+  z-index: 10;
+  margin-left: 20px;
+  margin-top: 167px;
+}
+
+.imagem-tutorial-49{
+  width: auto;
+  height: 270px;
+  margin-left: 20px;
+}
+
+.destaque-49{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 400px;
+  height: 200px;
+  z-index: 10;
+  margin-left: 20px;
+  margin-top: 70px;
+}
+
+.imagem-tutorial-50{
+  width: auto;
+  height: 250px;
+  margin-left: 20px;
+}
+
+.destaque-50{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 130px;
+  height: 15px;
+  z-index: 10;
+  margin-left: 20px;
+  margin-top: 137px;
+}
+
+.imagem-tutorial-51{
+  width: auto;
+  height: 300px;
+  margin-left: 20px;
+}
+
+.destaque-51{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 205px;
+  height: 90px;
+  z-index: 10;
+  margin-left: 197px;
+  margin-top: 100px;
+}
+
+.imagem-tutorial-52{
+  width: auto;
+  height: 260px;
+  margin-left: 20px;
+}
+
+.destaque-52{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 140px;
+  height: 15px;
+  z-index: 10;
+  margin-left: 20px;
+  margin-top: 170px;
+}
+
+.imagem-tutorial-54{
+  width: auto;
+  height: 240px;
+  margin-left: 20px;
+}
+
+.destaque-54{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 140px;
+  height: 15px;
+  z-index: 10;
+  margin-left: 20px;
+  margin-top: 155px;
+}
+
+.destaque-54:before{
+  content: "";
+  position: absolute;
+  border: 2px solid #D13239;
+  border-right: transparent;
+  height: 245px;
+  width: 20px;
+  margin-left: -20px;
+  margin-top: -238px;
+}
+
+.destaque-2-54{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 250px;
+  height: 150px;
+  z-index: 10;
+  margin-left: 180px;
+  margin-top: 75px;
+}
+
+.destaque-2-54:before{
+  content: "";
+  position: absolute;
+  border: 2px solid #D13239;
+  border-left: transparent;
+  border-top: transparent;
+  height: 180px;
+  width: 50px;
+  margin-left: 247px;
+  margin-top: -80px;
+}
+
+.imagem-tutorial-56{
+  width: auto;
+  height: 280px;
+  margin-left: 20px;
+}
+
+.destaque-56{
+  position: absolute;
+  border: 2px solid #D13239;
+  width: 210px;
+  height: 30px;
+  z-index: 10;
+  margin-left: 40px;
+  margin-top: 250px;
+}
+
+.imagem-tutorial-57{
+  width: auto;
+  height: 300px;
+  margin-left: 20px;
+}
+
+.imagem-tutorial-58{
+  width: auto;
+  height: 290px;
+  margin-left: 20px;
+}
+
+.imagem-tutorial-59{
+  width: auto;
+  height: 260px;
+  margin-left: 20px;
 }
