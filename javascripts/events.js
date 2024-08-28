@@ -29,6 +29,12 @@ let containerSlide = document.getElementById("container-slide");
 let containerBotoes = document.getElementById("container-botoes");
 let imagemTela = document.getElementById("imagem-tela");
 let rodape = document.getElementById("rodape");
+let menu1 = document.getElementById("menu1");
+let menu2 = document.getElementById("menu2");
+let menu3 = document.getElementById("menu3");
+let menu4 = document.getElementById("menu4");
+let menu5 = document.getElementById("menu5");
+let menu6 = document.getElementById("menu6");
 //////////////////////////////////////////////////////////////////
 
  // let text = '{"texto":[' +
@@ -163,8 +169,76 @@ console.log(result);
         ContagemRodape(num);
       }
     });
+   
+    //eventos de click no menu
+    menu1.addEventListener('click', function(){
+      if(num >= 0){
+        console.log("click");
+        num = 5;
+        console.log(num);
+        RemoverTextoTela();
+        RenderizarTextoTela();
+        ContagemRodape(num);
+      }
+    });
 
-}
+    menu2.addEventListener('click', function(){
+      if(num >= 0){
+        console.log("click");
+        num = 16;
+        console.log(num);
+        RemoverTextoTela();
+        RenderizarTextoTela();
+        ContagemRodape(num);
+      }
+    });
+
+    menu3.addEventListener('click', function(){
+      if(num >= 0){
+        console.log("click");
+        num = 35;
+        console.log(num);
+        RemoverTextoTela();
+        RenderizarTextoTela();
+        ContagemRodape(num);
+      }
+    });
+
+    menu4.addEventListener('click', function(){
+      if(num >= 0){
+        console.log("click");
+        num = 53;
+        console.log(num);
+        RemoverTextoTela();
+        RenderizarTextoTela();
+        ContagemRodape(num);
+      }
+    });
+
+    menu5.addEventListener('click', function(){
+      if(num >= 0){
+        console.log("click");
+        num = 55;
+        console.log(num);
+        RemoverTextoTela();
+        RenderizarTextoTela();
+        ContagemRodape(num);
+      }
+    });
+
+    menu6.addEventListener('click', function(){
+      if(num >= 0){
+        console.log("click");
+        num = 58;
+        console.log(num);
+        RemoverTextoTela();
+        RenderizarTextoTela();
+        ContagemRodape(num);
+      }
+    });
+  }
+
+
 
   function RenderizarTextoTela(){
     //cria o titulo, númeração e paragrafos

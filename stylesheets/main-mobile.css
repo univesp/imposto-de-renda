@@ -1,0 +1,126 @@
+@media only screen and (max-width: 1000px){
+    nav > .container{
+        background-color: transparent;
+        border: none;
+    }
+
+    nav .nav-link {
+        background-color: #607989;
+        color: white;
+    }
+
+    .titulo-inicial{
+        margin-top: 10px;
+    }
+
+    .tela-paragrafos .lista-ul-4{
+        margin-left: -50px;
+        margin-top: 10px;
+        width: 450px;
+        height: auto;
+        gap: 20px;
+    }
+
+    .tela-paragrafos .lista-ul-4 .lista-li-4{
+        font-size: 14px;
+    }
+
+
+    .tela-paragrafos .lista-ul-4 .lista-li-4:nth-child(odd) {
+        width: 100px;
+        margin-left: 1px;
+    }
+
+    .tela-paragrafos .lista-ul-4 .lista-li-4 {
+        padding: 5px 10px 0px 20px;
+    }
+
+    .titulo-princiapl{
+        margin-top: 25px;
+    }
+
+    .numeração-1, .numeração-2, .numeração-3, .numeração-4, .numeração-5, .numeração-6{
+        margin-top: 15px;
+    }
+
+    .tela-paragrafos{
+        height: fit-content;
+        padding: 20px 0px 20px 0px;
+    }
+
+    p{
+        text-align: left;
+    }
+
+    .imagem-tutorial-18{
+        width: 360px;
+    }
+
+    .imagem-tutorial-19{
+        width: 400px;
+        margin-left: -80px;
+    }
+
+    .destaque-19{
+        margin-left: 0px;
+        margin-top: 275px;
+    }
+
+    .destaque-19:before{
+        width: 40px;
+    }
+
+    .paragrafo-19{
+        margin-left: 270px;
+        margin-top: 255px;
+    }
+
+    .imagem-tutorial-20{
+        width: 400px;
+        margin-left: -70px;
+    }
+
+    .destaque-20{
+        margin-left: 60px;
+        margin-top: 245px;
+    }
+
+    .destaque-20:before{
+        width: 80px;
+    }
+
+    .paragrafo-20{
+        margin-left: 280px;
+        margin-top: 225px;
+    }
+
+    .paragrafo-21{
+        position: relative;
+        order: +1;
+        margin-top: 15px;
+        margin-left: 160px;
+    }
+
+    .imagem-tutorial-21{
+        height: 220px;
+        margin-left: 0px;
+    }
+
+    .destaque-21{
+        margin-left: 208px;
+        margin-top: 197px;
+        width: 130px;
+    }
+
+    .destaque-21:before{
+        width: 15px;
+        margin-left: 127px;
+        height: 140px;
+    }
+
+    #teste{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
