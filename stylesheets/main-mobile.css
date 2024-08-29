@@ -9,6 +9,10 @@
         color: white;
     }
 
+    nav .logo img {
+        margin-bottom: 20px;
+    }
+
     .titulo-inicial{
         margin-top: 10px;
     }
@@ -52,75 +56,82 @@
         text-align: left;
     }
 
-    .imagem-tutorial-18{
-        width: 360px;
-    }
-
     .imagem-tutorial-19{
-        width: 400px;
-        margin-left: -80px;
-    }
-
-    .destaque-19{
-        margin-left: 0px;
-        margin-top: 275px;
-    }
-
-    .destaque-19:before{
-        width: 40px;
+        width: 260px;
     }
 
     .paragrafo-19{
         margin-left: 270px;
-        margin-top: 255px;
+        margin-top: 235px;
     }
 
     .imagem-tutorial-20{
-        width: 400px;
-        margin-left: -70px;
-    }
-
-    .destaque-20{
-        margin-left: 60px;
-        margin-top: 245px;
-    }
-
-    .destaque-20:before{
-        width: 80px;
+        width: 260px;
     }
 
     .paragrafo-20{
         margin-left: 280px;
-        margin-top: 225px;
-    }
-
-    .paragrafo-21{
-        position: relative;
-        order: +1;
-        margin-top: 15px;
-        margin-left: 160px;
+        margin-top: 215px;
     }
 
     .imagem-tutorial-21{
-        height: 220px;
-        margin-left: 0px;
-    }
-
-    .destaque-21{
-        margin-left: 208px;
-        margin-top: 197px;
-        width: 130px;
-    }
-
-    .destaque-21:before{
-        width: 15px;
-        margin-left: 127px;
-        height: 140px;
+        width: 90%;
+        margin-bottom: 20px;
     }
 
     #teste{
         display: flex;
         flex-direction: column;
     }
+
+    .imagem-tutorial-22{
+        width: 90%;
+        margin-top: -20px;
+    }
+
+    .imagem-tutorial-23{
+        width: 90%;
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+
+    .imagem-tutorial-24{
+        width: 90%;
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+
+    .slide p{
+        padding: 0px 10px 0px 10px;
+
+    }
+
+    .imagem-tutorial-25{
+        width: 90%;
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+
+    .imagem-tutorial-26{
+        width: 90%;
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+
+    .imagem-tutorial-27{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .imagem-tutorial-28{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .imagem-tutorial-29, .imagem-tutorial-30, .imagem-tutorial-31, .imagem-tutorial-32{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
 
 }

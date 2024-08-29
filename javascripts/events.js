@@ -277,10 +277,7 @@ console.log(result);
     }
     else titulo.className = `titulo-princiapl`; //cria a classe do título principal
     const paragrafo1 = document.createElement("p");
-    if(num==26){
-      paragrafo1.className = `paragrafo-pag27`; //cria a clase do paragrafo para resolver problema na pag. 27
-    }
-    else paragrafo1.className = `paragrafo-${num}`; //cria a clase do paragrafo
+    paragrafo1.className = `paragrafo-${num}`; //cria a clase do paragrafo
     const paragrafo2 = document.createElement("p");
     paragrafo2.className = `paragrafo-${num}`; //cria a clase do paragrafo
     const paragrafo3 = document.createElement("p");
