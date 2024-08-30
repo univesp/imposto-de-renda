@@ -250,7 +250,7 @@
         "titulo":"Programa para Computador",
         "paragrafo":"Aguarde a instalação",
         "imagem":"Programa1",
-      "imagem2": "tutorial14"
+        "imagem2": "tutorial14"
       },
       {
         "numeração": "2.2",
@@ -293,56 +293,47 @@
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Clicar em \"Iniciar Declaração em Branco\"",
         "imagem":"Declaracao",
-        "imagem2": "tutorial18",
-        "destaque": " "
+        "imagem2": "tutorial19"
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Preencher dados com seu CPF e Nome completo nos respectivos campos e, em seguida, clicar em \"OK\".",
         "imagem":"Declaracao",
-        "imagem2": "tutorial20",
-        "destaque": ""
+        "imagem2": "tutorial20"
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Nas \"Fichas de Declaração\" escolher \"Identificação do Contribuinte\"",
         "imagem":"Declaracao",
-        "imagem2": "tutorial21",
-        "destaque": "" 
+        "imagem2": "tutorial21"
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "imagem":"Texto2",
-        "imagem2": "tutorial22",
-        "destaque": "",
-        "destaque2": "",
-        "destaque3": ""
+        "imagem2": "tutorial22"
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "imagem":"Texto3",
-        "imagem2": "tutorial23",
-        "imagem3": "tutorial24"
+        "imagem2": "tutorial23"
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Nas \"Fichas de Declaração\" escolher \"Dependentes\". Caso não possua dependentes, pule essa etapa.",
         "imagem":"Declaracao",
-        "imagem2": "tutorial25",
-        "destaque": "" 
+        "imagem2": "tutorial25"
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Para incluir os dados do dependente, clique em \"Novo\".",
         "imagem":"Declaracao",
-        "imagem2": "tutorial26",
-        "destaque": ""
+        "imagem2": "tutorial26"
       },
       {
         "numeração": "3",
@@ -355,65 +346,54 @@
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Inserir os dados da fonte pagadora e os valores dos rendimentos. Em seguida, clicar em \"OK\"",
         "imagem":"Declaracao",
-        "imagem2": "tutorial28",
-        "destaque": ""
+        "imagem2": "tutorial28"
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "imagem":"Texto4",
-        "imagem2": "tutorial29",
-        "imagem3": "tutorial30",
-        "destaque":"",
-        "destaque2":"" 
+        "imagem2": "tutorial29"
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "imagem":"Texto5",
-        "imagem2": "tutorial31",
-        "imagem3": "tutorial32",
-        "destaque": ""
+        "imagem2": "tutorial31"
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Agora, vamos informar as despesas que tivemos ao longo do ano com médicos, dentistas, hospitais, educação etc.",
         "imagem":"Declaracao",
-        "imagem2": "tutorial33",
-        "destaque": ""
+        "imagem2": "tutorial33"
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Após escolher o tipo e despesa, preencher os dados como CNPJ, nome e descrição da despesa. Em seguida, clique em \"OK\".",
         "imagem":"Declaracao",
-        "imagem2": "tutorial34",
-        "destaque": ""
+        "imagem2": "tutorial34"
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Declaração de Bens e Direitos: nessa ficha você vai declarar todos os seus bens, tais como imóveis, automóvel, etc. Não se esquceça de declarar todos os seus bens, um por um. Clique em \"Novo\" para começar a preencher a ficha.",
         "imagem":"Declaracao",
-        "imagem2": "tutorial35",
-        "destaque": ""
+        "imagem2": "tutorial35"
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Escolha o grupo (tipo) de bem e preencha com as informações solicitadas.",
         "imagem":"Declaracao",
-        "imagem2": "tutorial36",
-        "destaque": ""
+        "imagem2": "tutorial36"
       },
       {
         "numeração": "3",
         "titulo":"Preenchendo a declaração",
         "paragrafo":"Se você tiver contraído algum empréstimo ou tem  alguma dívida, você vai declara em \"Dívidas e Ônus Reais\" e clicar em \"Novo\".",
         "imagem":"Declaracao",
-        "imagem2": "tutorial37",
-        "destaque": ""
+        "imagem2": "tutorial37"
       },
       {
         "numeração": "4",
@@ -423,12 +403,8 @@
       {
         "numeração": "4",
         "titulo":"Conferindo/Salvando sua declaração",
-        "paragrafo":"Para isso basta clicar no botão \"Verificar Pendências\", localizado na parte inferior da lista das Fichas de Declaração.",
-        "paragrafo2":"Corrigir/complementar as informações que aparecem no campo \"Pendências\"",
         "imagem":"Declaracao",
-        "imagem2": "tutorial38",
-        "destaque": "",
-        "destaque2": ""
+        "imagem2": "tutorial38"
       },
       {
         "numeração": "5",
@@ -441,8 +417,7 @@
         "titulo": "Enviando sua Declaração",
         "paragrafo": "Clique no botão \"Entregar Declaração\"",
         "imagem": "Informacoes12",
-        "imagem2": "tutorial39",
-        "destaque": ""
+        "imagem2": "tutorial39"
       },
       {
         "numeração": "5",

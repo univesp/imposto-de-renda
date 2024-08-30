@@ -35,6 +35,9 @@ let menu3 = document.getElementById("menu3");
 let menu4 = document.getElementById("menu4");
 let menu5 = document.getElementById("menu5");
 let menu6 = document.getElementById("menu6");
+let tutorial = document.getElementById("tutorial");
+let popUp = document.getElementById("pop-up");
+let fechar = document.getElementById("fechar");
 //////////////////////////////////////////////////////////////////
 
  // let text = '{"texto":[' +
@@ -236,6 +239,16 @@ console.log(result);
         ContagemRodape(num);
       }
     });
+
+    //criar pop-up de tutorial
+    
+    tutorial.addEventListener('click', function(){
+      popUp.showModal()
+    });
+
+    fechar.addEventListener('click', function(){
+      popUp.close()
+    });
   }
 
 
@@ -243,14 +256,6 @@ console.log(result);
   function RenderizarTextoTela(){
     //cria o titulo, númeração e paragrafos
 
-    const destaque = document.createElement("div");
-    destaque.className = `destaque-${num}`; //cria a clase da div de destaque em vermelho
-    const destaque2 = document.createElement("div");
-    destaque2.className = `destaque-2-${num}`; //cria a clase da div de destaque em vermelho
-    const destaque3 = document.createElement("div");
-    destaque3.className = `destaque-3-${num}`; //cria a clase da div de destaque em vermelho
-    const blocoBranco = document.createElement("div");
-    blocoBranco.className = `bloco-branco-${num}`; //cria a clase da div bloco branco para cobrir dados pessoais
     const numeração = document.createElement("div");
     if(num+1>=6 && num+1<=16){
     numeração.className = `numeração-1`; //condição para criar a clase da primeira numeração
@@ -276,49 +281,25 @@ console.log(result);
       titulo.className = `titulo-inicial`; //cria a classe do título inicial
     }
     else titulo.className = `titulo-princiapl`; //cria a classe do título principal
+
     const paragrafo1 = document.createElement("p");
     paragrafo1.className = `paragrafo-${num}`; //cria a clase do paragrafo
     const paragrafo2 = document.createElement("p");
     paragrafo2.className = `paragrafo-${num}`; //cria a clase do paragrafo
     const paragrafo3 = document.createElement("p");
     paragrafo3.className = `paragrafo-${num}`; //cria a clase do paragrafo
-    const paragrafo4 = document.createElement("p");
-    paragrafo4.className = `paragrafo-${num}`; //cria a clase do paragrafo
-    const paragrafo5 = document.createElement("p");
-    paragrafo5.className = `paragrafo-${num}`; //cria a clase do paragrafo
-    const paragrafo6 = document.createElement("p");
-    paragrafo6.className = `paragrafo-${num}`; //cria a clase do paragrafo
-    const paragrafo7 = document.createElement("p");
-    paragrafo7.className = `paragrafo-${num}`; //cria a clase do paragrafo
 
     const node0 = document.createTextNode(obj.texto[num].numeração);
     const node1 = document.createTextNode(obj.texto[num].titulo);
     const node2 = document.createTextNode(obj.texto[num].paragrafo);
     const node3 = document.createTextNode(obj.texto[num].paragrafo2);
     const node4 = document.createTextNode(obj.texto[num].paragrafo3);
-    const node5 = document.createTextNode(obj.texto[num].paragrafo4);
-    const node6 = document.createTextNode(obj.texto[num].paragrafo5);
-    const node7 = document.createTextNode(obj.texto[num].paragrafo6);
-    const node8 = document.createTextNode(obj.texto[num].paragrafo7);
-    const node9 = document.createTextNode(obj.texto[num].destaque);
-    const node10 = document.createTextNode(obj.texto[num].destaque2);
-    const node11 = document.createTextNode(obj.texto[num].destaque3);
-    const node12 = document.createTextNode(obj.texto[num].blocoBranco);
-    
 
     numeração.appendChild(node0);
     titulo.appendChild(node1);
     paragrafo1.appendChild(node2);
     paragrafo2.appendChild(node3);
     paragrafo3.appendChild(node4);
-    paragrafo4.appendChild(node5);
-    paragrafo5.appendChild(node6);
-    paragrafo6.appendChild(node7);
-    paragrafo7.appendChild(node8);
-    destaque.appendChild(node9);
-    destaque2.appendChild(node10);
-    destaque3.appendChild(node11);
-    blocoBranco.appendChild(node12);
 
     //renderiza na tela o titulo, paragrafo e numeração
 
@@ -336,30 +317,6 @@ console.log(result);
     }
     if(obj.texto[num].paragrafo3 != undefined){
       document.getElementById("teste").appendChild(paragrafo3);
-    }
-    if(obj.texto[num].paragrafo4 != undefined){
-      document.getElementById("teste").appendChild(paragrafo4);
-    }
-    if(obj.texto[num].paragrafo5 != undefined){
-      document.getElementById("teste").appendChild(paragrafo5);
-    }
-    if(obj.texto[num].paragrafo6 != undefined){
-      document.getElementById("teste").appendChild(paragrafo6);
-    }
-    if(obj.texto[num].paragrafo7 != undefined){
-      document.getElementById("teste").appendChild(paragrafo7);
-    }
-    if(obj.texto[num].destaque!= undefined){
-      document.getElementById("teste").appendChild(destaque);
-    }
-    if(obj.texto[num].destaque2!= undefined){
-      document.getElementById("teste").appendChild(destaque2);
-    }
-    if(obj.texto[num].destaque3!= undefined){
-      document.getElementById("teste").appendChild(destaque3);
-    }
-    if(obj.texto[num].blocoBranco!= undefined){
-      document.getElementById("teste").appendChild(blocoBranco);
     }
 
     imagens();
@@ -466,5 +423,5 @@ console.log(result);
   
     // Adiciona o <ul> ao contêiner no DOM
     document.getElementById("teste").appendChild(ul);
-  }
+  }  
 });
