@@ -240,6 +240,7 @@ console.log(result);
       }
     });
 
+
     //criar pop-up de tutorial
     
     tutorial.addEventListener('click', function(){

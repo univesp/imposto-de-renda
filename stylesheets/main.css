@@ -744,6 +744,8 @@ dialog::backdrop{
   box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
   width: 40%;
   overflow: visible;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 #pop-up:before{
