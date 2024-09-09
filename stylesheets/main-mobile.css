@@ -134,7 +134,15 @@
     }
     
     #pop-up{
-        width: 60%;
+        top: 15%;
+    }
+
+    .texto-pop-up{
+        font-size: 12px;
+    }
+
+    .titulo-pop-up{
+        font-size: 1.5rem;
     }
 
 

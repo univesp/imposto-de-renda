@@ -735,17 +735,24 @@ p{
 
 dialog::backdrop{
   background-color: rgb(0 0 0 / .5);
+  z-index: 10;
 }
 
 #pop-up{
-  position: relative;
+  position: absolute;
   border: none;
   border-radius: 0.5rem;
   box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
-  width: 40%;
+  width: 80%;
   overflow: visible;
   left: 50%;
   transform: translateX(-50%);
+  display: none;
+  top: 15%;
+}
+
+#pop-up.mostrar{
+  display: block;
 }
 
 #pop-up:before{

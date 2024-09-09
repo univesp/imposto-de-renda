@@ -1,46 +1,46 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
   //////////////////////////////////////////////////////////////////
   // HEADER DINÂMICO
   // Mostra header somente no início da página.
   // Descomentar caso utilizada a classe .header-dinamico. Caso contrário, deletar.
 
-    $(window).scroll(function(){
-      var nav = $(".header-dinamico .container");
-      var scroll = $(window).scrollTop();
-      if(scroll == 0){
-        nav.fadeIn();
-      } else {
-        nav.fadeOut();
-      }
-    });
+  $(window).scroll(function () {
+    var nav = $(".header-dinamico .container");
+    var scroll = $(window).scrollTop();
+    if (scroll == 0) {
+      nav.fadeIn();
+    } else {
+      nav.fadeOut();
+    }
+  });
 
-//////////////////////////////////////////////////////////////////
-////variáveis
-var num;
-var obj = null;
-let iniciar = document.getElementById("iniciar");
-let avancar = document.getElementById("avancar");
-let voltar = document.getElementById("voltar");
-let teste = document.getElementById("teste");
-let botoes = document.getElementById("container-botoes");
-let telaConteudo = document.getElementById("tela-conteudo");
-let containerSlide = document.getElementById("container-slide");
-let containerBotoes = document.getElementById("container-botoes");
-let imagemTela = document.getElementById("imagem-tela");
-let rodape = document.getElementById("rodape");
-let menu1 = document.getElementById("menu1");
-let menu2 = document.getElementById("menu2");
-let menu3 = document.getElementById("menu3");
-let menu4 = document.getElementById("menu4");
-let menu5 = document.getElementById("menu5");
-let menu6 = document.getElementById("menu6");
-let tutorial = document.getElementById("tutorial");
-let popUp = document.getElementById("pop-up");
-let fechar = document.getElementById("fechar");
-//////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////
+  ////variáveis
+  var num;
+  var obj = null;
+  let iniciar = document.getElementById("iniciar");
+  let avancar = document.getElementById("avancar");
+  let voltar = document.getElementById("voltar");
+  let teste = document.getElementById("teste");
+  let botoes = document.getElementById("container-botoes");
+  let telaConteudo = document.getElementById("tela-conteudo");
+  let containerSlide = document.getElementById("container-slide");
+  let containerBotoes = document.getElementById("container-botoes");
+  let imagemTela = document.getElementById("imagem-tela");
+  let rodape = document.getElementById("rodape");
+  let menu1 = document.getElementById("menu1");
+  let menu2 = document.getElementById("menu2");
+  let menu3 = document.getElementById("menu3");
+  let menu4 = document.getElementById("menu4");
+  let menu5 = document.getElementById("menu5");
+  let menu6 = document.getElementById("menu6");
+  let tutorial = document.getElementById("tutorial");
+  const dialog = document.getElementById("pop-up");
+  const fechar = document.getElementById("fechar");
+  //////////////////////////////////////////////////////////////////
 
- // let text = '{"texto":[' +
+  // let text = '{"texto":[' +
   // '{"titulo":"O que é","paragrafo":"O Imposto de Renda Pessoa Física (IRPF) é um tributo federal brasileiro que incide sobre os ganhos de pessoas físicas. Ele é administrado pela Receita Federal do Brasil e é uma das principais fontes de receita para o governo","imagem":"LogoReceitaFederal"},' +
   // '{"titulo":"Quem deve declarar","paragrafo":"Pessoas que tiveram rendimentos tributáveis (como salários, aposentadorias, aluguéis, entre outros) acima do limite estabelecido pela Receita Federal.", "paragrafo2":"Em 2023 este valor foide R$ 28.559,70 anuais, ou R$ 2.379,97 mensais","imagem":"Dinheiro"},' +
   // '{"titulo":"A periodicidade","paragrafo":"A declaração do Imposto de Renda Pessoa Física(IRPF) é obrigatória anualmente.","imagem":"Calendario" },' +
@@ -102,33 +102,33 @@ let fechar = document.getElementById("fechar");
   // '{"titulo":"1","paragrafo":"1","imagem":"1" },' +
   // '{"titulo":"1","paragrafo":"1","imagem":"1" },' +
   // '{"titulo":"1","paragrafo":"1","imagem":"1"}]}';
-//////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////
 
-// JSON 
-fetch('data.json')
-  .then(response => response.json())
-  .then(data => {
-    obj = data; 
-    displayData(obj);
-  })
-  .catch(error => {
-    console.error('Erro ao carregar o JSON:', error);
+  // JSON 
+  fetch('data.json')
+    .then(response => response.json())
+    .then(data => {
+      obj = data;
+      displayData(obj);
+    })
+    .catch(error => {
+      console.error('Erro ao carregar o JSON:', error);
+    });
+  // JSON 
+
+  // Exemplo de uso
+  const jsonText = JSON.stringify({
+    text: "Este é um exemplo de texto em JSON."
   });
-// JSON 
 
-// Exemplo de uso
-const jsonText = JSON.stringify({
-  text: "Este é um exemplo de texto em JSON."
-});
-
-const searchTerm = "exemplo";
-const result = highlightText(jsonText, searchTerm);
-console.log(result);
+  const searchTerm = "exemplo";
+  const result = highlightText(jsonText, searchTerm);
+  console.log(result);
 
   document.addEventListener('DOMContentLoaded', fetchData);
 
-  function displayData(obj){ /*meu teste aqui na frente para ver as informações das variaveis*/ console.log(obj.texto[4].li[0].li)
-    iniciar.addEventListener('click', function(data){
+  function displayData(obj) { /*meu teste aqui na frente para ver as informações das variaveis*/ console.log(obj.texto[4].li[0].li)
+    iniciar.addEventListener('click', function (data) {
       num = 0;
       RemoverTextoTela();
       RenderizarTextoTela(data);
@@ -142,16 +142,16 @@ console.log(result);
       rodape.innerText = `1 / ${obj.texto.length}`
 
 
-      if(num != undefined){
+      if (num != undefined) {
         console.log("matei a charada");
         iniciar.innerText = "Reiniciar";
       }
     });
 
-      //evento de click para avançar o texto
-    avancar.addEventListener('click', function(){
+    //evento de click para avançar o texto
+    avancar.addEventListener('click', function () {
 
-      if(num < obj.texto.length-1){
+      if (num < obj.texto.length - 1) {
         console.log("click");
         num += 1;
         console.log(num);
@@ -161,9 +161,9 @@ console.log(result);
       }
     });
 
-  //evento de click para voltar o texto
-    voltar.addEventListener('click', function(){
-      if(num > 0){
+    //evento de click para voltar o texto
+    voltar.addEventListener('click', function () {
+      if (num > 0) {
         console.log("click");
         num -= 1;
         console.log(num);
@@ -172,10 +172,10 @@ console.log(result);
         ContagemRodape(num);
       }
     });
-   
+
     //eventos de click no menu
-    menu1.addEventListener('click', function(){
-      if(num >= 0){
+    menu1.addEventListener('click', function () {
+      if (num >= 0) {
         console.log("click");
         num = 5;
         console.log(num);
@@ -185,8 +185,8 @@ console.log(result);
       }
     });
 
-    menu2.addEventListener('click', function(){
-      if(num >= 0){
+    menu2.addEventListener('click', function () {
+      if (num >= 0) {
         console.log("click");
         num = 16;
         console.log(num);
@@ -196,8 +196,8 @@ console.log(result);
       }
     });
 
-    menu3.addEventListener('click', function(){
-      if(num >= 0){
+    menu3.addEventListener('click', function () {
+      if (num >= 0) {
         console.log("click");
         num = 35;
         console.log(num);
@@ -207,8 +207,8 @@ console.log(result);
       }
     });
 
-    menu4.addEventListener('click', function(){
-      if(num >= 0){
+    menu4.addEventListener('click', function () {
+      if (num >= 0) {
         console.log("click");
         num = 53;
         console.log(num);
@@ -218,8 +218,8 @@ console.log(result);
       }
     });
 
-    menu5.addEventListener('click', function(){
-      if(num >= 0){
+    menu5.addEventListener('click', function () {
+      if (num >= 0) {
         console.log("click");
         num = 55;
         console.log(num);
@@ -229,8 +229,8 @@ console.log(result);
       }
     });
 
-    menu6.addEventListener('click', function(){
-      if(num >= 0){
+    menu6.addEventListener('click', function () {
+      if (num >= 0) {
         console.log("click");
         num = 58;
         console.log(num);
@@ -241,44 +241,60 @@ console.log(result);
     });
 
 
+    function showModal() {
+      const modal = document.getElementById('pop-up');
+      modal.style.display = 'block'; // Exibe o modal
+    }
+
+    // verifica se o usuário já viu o modal
+    if (!localStorage.getItem('modalShown')) {
+      // Exibe o modal
+      showModal();
+
+      // Não mostrar o modal novamente
+      localStorage.setItem('modalShown', 'true');
+    }
+
     //criar pop-up de tutorial
-    
-    tutorial.addEventListener('click', function(){
-      popUp.showModal()
+
+    tutorial.addEventListener('click', function () {
+      const modal = document.getElementById('pop-up');
+      modal.style.display = 'block'; // Exibe o modal
     });
 
-    fechar.addEventListener('click', function(){
-      popUp.close()
+    fechar.addEventListener('click', function () {
+      const modal = document.getElementById('pop-up');
+      modal.style.display = 'none'; // fecha o modal
     });
   }
 
 
 
-  function RenderizarTextoTela(){
+  function RenderizarTextoTela() {
     //cria o titulo, númeração e paragrafos
 
     const numeração = document.createElement("div");
-    if(num+1>=6 && num+1<=16){
-    numeração.className = `numeração-1`; //condição para criar a clase da primeira numeração
+    if (num + 1 >= 6 && num + 1 <= 16) {
+      numeração.className = `numeração-1`; //condição para criar a clase da primeira numeração
     }
-    if(num+1>=17 && num+1<=35){
-    numeração.className = `numeração-2`; //condição para criar a clase da segunda numeração
+    if (num + 1 >= 17 && num + 1 <= 35) {
+      numeração.className = `numeração-2`; //condição para criar a clase da segunda numeração
     }
-    if(num+1>=36 && num+1<=53){
-    numeração.className = `numeração-3`; //condição para criar a clase da terceira numeração
+    if (num + 1 >= 36 && num + 1 <= 53) {
+      numeração.className = `numeração-3`; //condição para criar a clase da terceira numeração
     }
-    if(num+1==54 || num+1==55){
-    numeração.className = `numeração-4`; //condição para criar a clase da quarta numeração
+    if (num + 1 == 54 || num + 1 == 55) {
+      numeração.className = `numeração-4`; //condição para criar a clase da quarta numeração
     }
-    if(num+1>=56 && num+1<=58){
-    numeração.className = `numeração-5`; //condição para criar a clase da quinta numeração
+    if (num + 1 >= 56 && num + 1 <= 58) {
+      numeração.className = `numeração-5`; //condição para criar a clase da quinta numeração
     }
-    if(num+1==59 || num+1==60){
-    numeração.className = `numeração-6`; //condição para criar a clase da sexta numeração
+    if (num + 1 == 59 || num + 1 == 60) {
+      numeração.className = `numeração-6`; //condição para criar a clase da sexta numeração
     }
 
     const titulo = document.createElement("p");
-    if(num<5 || num+1==61){
+    if (num < 5 || num + 1 == 61) {
       titulo.className = `titulo-inicial`; //cria a classe do título inicial
     }
     else titulo.className = `titulo-princiapl`; //cria a classe do título principal
@@ -304,55 +320,55 @@ console.log(result);
 
     //renderiza na tela o titulo, paragrafo e numeração
 
-    if(obj.texto[num].numeração != undefined){
+    if (obj.texto[num].numeração != undefined) {
       document.getElementById("teste").appendChild(numeração);
     }
-    if(obj.texto[num].titulo != undefined){
+    if (obj.texto[num].titulo != undefined) {
       document.getElementById("teste").appendChild(titulo);
     }
-    if(obj.texto[num].paragrafo != undefined){
+    if (obj.texto[num].paragrafo != undefined) {
       document.getElementById("teste").appendChild(paragrafo1);
     }
-    if(obj.texto[num].paragrafo2 != undefined){
+    if (obj.texto[num].paragrafo2 != undefined) {
       document.getElementById("teste").appendChild(paragrafo2);
     }
-    if(obj.texto[num].paragrafo3 != undefined){
+    if (obj.texto[num].paragrafo3 != undefined) {
       document.getElementById("teste").appendChild(paragrafo3);
     }
 
     imagens();
 
     //função para criar a lista na página 5
-      if((num+1)== 5){ 
+    if ((num + 1) == 5) {
       console.log("AQUI<=========================");
       createList();
-  }
+    }
 
 
-// Função definir paginas com lista de paragrafos
+    // Função definir paginas com lista de paragrafos
 
-    const pagesWithLists = [6,7,8,9,10,11,12,13,14,15,18]; // números das páginas onde deseja criar listas
+    const pagesWithLists = [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 18]; // números das páginas onde deseja criar listas
     // Verifica se a página atual precisa de uma lista
     if (pagesWithLists.includes(num + 1)) {
-    console.log("Criando lista na página:", num + 1);
-    paragraphList(num + 1); // Passe a página atual para a função
+      console.log("Criando lista na página:", num + 1);
+      paragraphList(num + 1); // Passe a página atual para a função
     }
-}
+  }
 
-  function RemoverTextoTela(){
+  function RemoverTextoTela() {
     document.getElementById("teste").removeChild(teste.firstChild);
     while (teste.firstChild) {
       teste.removeChild(teste.firstChild);
-  }
-  }
-
-  function ContagemRodape(num){
-    rodape.innerText = `${num+1} / ${obj.texto.length}`;
+    }
   }
 
-  function imagens(){
+  function ContagemRodape(num) {
+    rodape.innerText = `${num + 1} / ${obj.texto.length}`;
+  }
+
+  function imagens() {
     let novoCaminho;
-    if(obj.texto[num].imagem){
+    if (obj.texto[num].imagem) {
       novoCaminho = `assets/${obj.texto[num].imagem}.svg`;
     } else {
       novoCaminho = `assets/default.png`;
@@ -365,7 +381,7 @@ console.log(result);
       novaImagem.src = `assets/${obj.texto[num].imagem2}.svg`;
       novaImagem.alt = 'Imagem adicional';
       novaImagem.className = `imagem-tutorial-${num}`;
-  
+
       document.getElementById('teste').appendChild(novaImagem);
     }
 
@@ -374,12 +390,12 @@ console.log(result);
       novaImagem.src = `assets/${obj.texto[num].imagem3}.svg`;
       novaImagem.alt = 'Imagem adicional';
       novaImagem.className = `imagem-tutorial-2-${num}`;
-  
+
       document.getElementById('teste').appendChild(novaImagem);
     }
   }
 
-  
+
 
 
   //função criar lista de paragrafos
@@ -388,32 +404,32 @@ console.log(result);
     // Cria o elemento <ul>
     const ul = document.createElement('ul');
     ul.className = `lista-ul-${num}`; //cria a clase da lista
-    
+
     // Obtém o número de elementos na lista da página atual
     const items = obj.texto[pageIndex - 1].li;
     const numItems = items.length;
-    
+
     // Cria e adiciona elementos <li> ao <ul>
     for (let i = 0; i < numItems; i++) {
-        const li = document.createElement('li');
-        li.className = `lista-li-${num}`; //cria a clase da lista
-        li.textContent = `${items[i].li}`; // Define o texto do <li>
-        ul.appendChild(li); // Adiciona o <li> ao <ul>
+      const li = document.createElement('li');
+      li.className = `lista-li-${num}`; //cria a clase da lista
+      li.textContent = `${items[i].li}`; // Define o texto do <li>
+      ul.appendChild(li); // Adiciona o <li> ao <ul>
     }
-  
+
     // Adiciona o <ul> ao contêiner no DOM, se houver itens
     if (numItems > 0) {
-        document.getElementById("teste").appendChild(ul);
+      document.getElementById("teste").appendChild(ul);
     }
-}
+  }
 
-//função criar lista menu página 5
+  //função criar lista menu página 5
 
   function createList() {
     // Cria o elemento <ul>
     const ul = document.createElement('ul');
     ul.className = `lista-ul-${num}`; //cria a clase da ul
-    
+
     // Cria e adiciona 6 elementos <li> ao <ul>
     for (let i = 0; i <= 5; i++) {
       const li = document.createElement('li');
@@ -421,8 +437,9 @@ console.log(result);
       li.textContent = `${obj.texto[4].li[i].li}`; // Define o texto do <li>
       ul.appendChild(li); // Adiciona o <li> ao <ul>
     }
-  
+
     // Adiciona o <ul> ao contêiner no DOM
     document.getElementById("teste").appendChild(ul);
-  }  
+  }
+
 });
