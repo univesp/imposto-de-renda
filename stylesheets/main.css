@@ -138,7 +138,7 @@ width: 100%;
 }
 
 .tela-conteudo button{
-  width: 100px;
+  width: fit-content;
   height: 50px;
   border-radius: .5rem;
   border: 1px solid transparent;
@@ -733,11 +733,6 @@ p{
   margin-left: 20px;
 }
 
-dialog::backdrop{
-  background-color: rgb(0 0 0 / .5);
-  z-index: 10;
-}
-
 #pop-up{
   position: absolute;
   border: none;
@@ -749,13 +744,14 @@ dialog::backdrop{
   transform: translateX(-50%);
   display: none;
   top: 15%;
+  z-index: 1001;
 }
 
 #pop-up.mostrar{
   display: block;
 }
 
-#pop-up:before{
+#pop-up::after{
   content: '';
   position: absolute;
   width: 20px;
@@ -764,6 +760,18 @@ dialog::backdrop{
   top: -10px;
   background: white;
   -webkit-transform: rotate(45deg);
+}
+
+#background{
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  z-index: 1000;
 }
 
 .titulo-pop-up{
@@ -779,6 +787,7 @@ dialog::backdrop{
   font-size: 16px;
   text-align: justify;
   padding: 0;
+  font-weight: 300;
 }
 
 #tutorial{

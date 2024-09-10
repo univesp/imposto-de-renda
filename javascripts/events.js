@@ -20,6 +20,7 @@ $(document).ready(function () {
   var num;
   var obj = null;
   let iniciar = document.getElementById("iniciar");
+  let reiniciar = document.getElementById("reiniciar");
   let avancar = document.getElementById("avancar");
   let voltar = document.getElementById("voltar");
   let teste = document.getElementById("teste");
@@ -36,8 +37,7 @@ $(document).ready(function () {
   let menu5 = document.getElementById("menu5");
   let menu6 = document.getElementById("menu6");
   let tutorial = document.getElementById("tutorial");
-  const dialog = document.getElementById("pop-up");
-  const fechar = document.getElementById("fechar");
+  let fechar = document.getElementById("fechar");
   //////////////////////////////////////////////////////////////////
 
   // let text = '{"texto":[' +
@@ -130,7 +130,7 @@ $(document).ready(function () {
   function displayData(obj) { /*meu teste aqui na frente para ver as informações das variaveis*/ console.log(obj.texto[4].li[0].li)
     iniciar.addEventListener('click', function (data) {
       num = 0;
-      RemoverTextoTela();
+      //RemoverTextoTela(); estava dando erro com este comando
       RenderizarTextoTela(data);
 
       botoes.classList.remove("hidden-div");
@@ -141,10 +141,29 @@ $(document).ready(function () {
 
       rodape.innerText = `1 / ${obj.texto.length}`
 
-
       if (num != undefined) {
         console.log("matei a charada");
         iniciar.innerText = "Reiniciar";
+      }
+
+      function showModal() {
+        const modal = document.getElementById('pop-up');
+        modal.style.display = 'block'; // Exibe o modal
+      }
+
+      function showBackground() {
+        const background = document.getElementById('background');
+        background.style.display = 'block'; // Exibe o background
+      }
+
+      // verifica se o usuário já viu o modal
+      if (!localStorage.getItem('modalShown')) {
+        // Exibe o modal
+        showModal();
+        showBackground();
+
+        // Não mostrar o modal novamente
+        localStorage.setItem('modalShown', 'true');
       }
     });
 
@@ -159,6 +178,16 @@ $(document).ready(function () {
         RenderizarTextoTela();
         ContagemRodape(num);
       }
+      else if (num == 60) {
+        console.log("click");
+        console.log("Página inicial");
+        RemoverTextoTela();
+        botoes.classList.add("hidden-div");
+        containerSlide.classList.add("hidden-div");
+        containerBotoes.classList.add("hidden-div");
+
+        telaConteudo.classList.remove("hidden-div");
+      }
     });
 
     //evento de click para voltar o texto
@@ -170,6 +199,16 @@ $(document).ready(function () {
         RemoverTextoTela();
         RenderizarTextoTela();
         ContagemRodape(num);
+      }
+      else if (num == 0) {
+        console.log("click");
+        console.log("Página inicial");
+        RemoverTextoTela();
+        botoes.classList.add("hidden-div");
+        containerSlide.classList.add("hidden-div");
+        containerBotoes.classList.add("hidden-div");
+
+        telaConteudo.classList.remove("hidden-div");
       }
     });
 
@@ -240,31 +279,18 @@ $(document).ready(function () {
       }
     });
 
-
-    function showModal() {
-      const modal = document.getElementById('pop-up');
-      modal.style.display = 'block'; // Exibe o modal
-    }
-
-    // verifica se o usuário já viu o modal
-    if (!localStorage.getItem('modalShown')) {
-      // Exibe o modal
-      showModal();
-
-      // Não mostrar o modal novamente
-      localStorage.setItem('modalShown', 'true');
-    }
-
-    //criar pop-up de tutorial
-
     tutorial.addEventListener('click', function () {
       const modal = document.getElementById('pop-up');
       modal.style.display = 'block'; // Exibe o modal
+      const background = document.getElementById('background');
+      background.style.display = 'block'; // Exibe o background
     });
 
     fechar.addEventListener('click', function () {
       const modal = document.getElementById('pop-up');
       modal.style.display = 'none'; // fecha o modal
+      const background = document.getElementById('background');
+      background.style.display = 'none'; // fecha o background
     });
   }
 

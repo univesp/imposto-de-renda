@@ -73,17 +73,21 @@
 
     .botoes{
         position: absolute;
-        top: 500px;
-        left: 0;
+        top: 45px;
+        left: 1000px;
         width: 962px;
         justify-content: center;
         gap: 10px;
+    }
+
+    #container-botoes{
+        width: fit-content;
     }
 }
 
 @media only screen and (min-width:1200px) {
     .botoes{
-        width: 1142px;
+        width: fit-content;
     }
 }
 
