@@ -38,6 +38,7 @@ $(document).ready(function () {
   let menu6 = document.getElementById("menu6");
   let tutorial = document.getElementById("tutorial");
   let fechar = document.getElementById("fechar");
+  let animation = document.getElementById("tela-paragrafos");
   //////////////////////////////////////////////////////////////////
 
   // let text = '{"texto":[' +
@@ -148,6 +149,9 @@ $(document).ready(function () {
 
       function showModal() {
         const modal = document.getElementById('pop-up');
+        modal.classList.remove('animar');
+        void modal.offsetWidth;
+        modal.classList.add('animar');
         modal.style.display = 'block'; // Exibe o modal
       }
 
@@ -189,6 +193,7 @@ $(document).ready(function () {
         telaConteudo.classList.remove("hidden-div");
       }
     });
+
 
     //evento de click para voltar o texto
     voltar.addEventListener('click', function () {
@@ -281,6 +286,12 @@ $(document).ready(function () {
 
     tutorial.addEventListener('click', function () {
       const modal = document.getElementById('pop-up');
+      // Remove a classe da animação se já estiver adicionada
+      modal.classList.remove('animar');
+      // Força o reinicio da animação
+      void modal.offsetWidth;
+      // Adiciona a classe para iniciar a animação
+      modal.classList.add('animar');
       modal.style.display = 'block'; // Exibe o modal
       const background = document.getElementById('background');
       background.style.display = 'block'; // Exibe o background
@@ -297,7 +308,6 @@ $(document).ready(function () {
 
 
   function RenderizarTextoTela() {
-    //cria o titulo, númeração e paragrafos
 
     const numeração = document.createElement("div");
     if (num + 1 >= 6 && num + 1 <= 16) {
@@ -348,17 +358,34 @@ $(document).ready(function () {
 
     if (obj.texto[num].numeração != undefined) {
       document.getElementById("teste").appendChild(numeração);
+      numeração.classList.remove('animarParagrafos');
+      void numeração.offsetWidth;
+      numeração.classList.add('animarParagrafos');
     }
     if (obj.texto[num].titulo != undefined) {
+      titulo.classList.remove('animarParagrafos');
+      void titulo.offsetWidth;
+      titulo.classList.add('animarParagrafos');
       document.getElementById("teste").appendChild(titulo);
     }
     if (obj.texto[num].paragrafo != undefined) {
+      paragrafo1.classList.remove('animarParagrafos');
+      // Força o reinicio da animação
+      void paragrafo1.offsetWidth;
+      // Adiciona a classe para iniciar a animação
+      paragrafo1.classList.add('animarParagrafos');
       document.getElementById("teste").appendChild(paragrafo1);
     }
     if (obj.texto[num].paragrafo2 != undefined) {
+      paragrafo2.classList.remove('animarParagrafos');
+      void paragrafo2.offsetWidth;
+      paragrafo2.classList.add('animarParagrafos');
       document.getElementById("teste").appendChild(paragrafo2);
     }
     if (obj.texto[num].paragrafo3 != undefined) {
+      paragrafo3.classList.remove('animarParagrafos');
+      void paragrafo3.offsetWidth;
+      paragrafo3.classList.add('animarParagrafos');
       document.getElementById("teste").appendChild(paragrafo3);
     }
 
@@ -408,15 +435,9 @@ $(document).ready(function () {
       novaImagem.alt = 'Imagem adicional';
       novaImagem.className = `imagem-tutorial-${num}`;
 
-      document.getElementById('teste').appendChild(novaImagem);
-    }
-
-    if (obj.texto[num].imagem3) {
-      const novaImagem = document.createElement('img');
-      novaImagem.src = `assets/${obj.texto[num].imagem3}.svg`;
-      novaImagem.alt = 'Imagem adicional';
-      novaImagem.className = `imagem-tutorial-2-${num}`;
-
+      novaImagem.classList.remove('animarimagens');
+      void novaImagem.offsetWidth;
+      novaImagem.classList.add('animarimagens');
       document.getElementById('teste').appendChild(novaImagem);
     }
   }
@@ -440,11 +461,17 @@ $(document).ready(function () {
       const li = document.createElement('li');
       li.className = `lista-li-${num}`; //cria a clase da lista
       li.textContent = `${items[i].li}`; // Define o texto do <li>
+      li.classList.remove('animarParagrafos');
+      void li.offsetWidth;
+      li.classList.add('animarParagrafos');
       ul.appendChild(li); // Adiciona o <li> ao <ul>
     }
 
     // Adiciona o <ul> ao contêiner no DOM, se houver itens
     if (numItems > 0) {
+      //ul.classList.remove('animarParagrafos');
+     //void ul.offsetWidth;
+      //ul.classList.add('animarParagrafos');
       document.getElementById("teste").appendChild(ul);
     }
   }
@@ -465,7 +492,9 @@ $(document).ready(function () {
     }
 
     // Adiciona o <ul> ao contêiner no DOM
+    ul.classList.remove('animarLista');
+    void ul.offsetWidth;
+    ul.classList.add('animarLista');
     document.getElementById("teste").appendChild(ul);
   }
-
 });
