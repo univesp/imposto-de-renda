@@ -23,7 +23,7 @@ $(document).ready(function () {
   let reiniciar = document.getElementById("reiniciar");
   let avancar = document.getElementById("avancar");
   let voltar = document.getElementById("voltar");
-  let teste = document.getElementById("teste");
+  let conteudoSlides = document.getElementById("conteudo-slides");
   let botoes = document.getElementById("container-botoes");
   let telaConteudo = document.getElementById("tela-conteudo");
   let containerSlide = document.getElementById("container-slide");
@@ -357,7 +357,7 @@ $(document).ready(function () {
     //renderiza na tela o titulo, paragrafo e numeração
 
     if (obj.texto[num].numeração != undefined) {
-      document.getElementById("teste").appendChild(numeração);
+      document.getElementById("conteudo-slides").appendChild(numeração);
       numeração.classList.remove('animarParagrafos');
       void numeração.offsetWidth;
       numeração.classList.add('animarParagrafos');
@@ -366,7 +366,7 @@ $(document).ready(function () {
       titulo.classList.remove('animarParagrafos');
       void titulo.offsetWidth;
       titulo.classList.add('animarParagrafos');
-      document.getElementById("teste").appendChild(titulo);
+      document.getElementById("conteudo-slides").appendChild(titulo);
     }
     if (obj.texto[num].paragrafo != undefined) {
       paragrafo1.classList.remove('animarParagrafos');
@@ -374,19 +374,19 @@ $(document).ready(function () {
       void paragrafo1.offsetWidth;
       // Adiciona a classe para iniciar a animação
       paragrafo1.classList.add('animarParagrafos');
-      document.getElementById("teste").appendChild(paragrafo1);
+      document.getElementById("conteudo-slides").appendChild(paragrafo1);
     }
     if (obj.texto[num].paragrafo2 != undefined) {
       paragrafo2.classList.remove('animarParagrafos');
       void paragrafo2.offsetWidth;
       paragrafo2.classList.add('animarParagrafos');
-      document.getElementById("teste").appendChild(paragrafo2);
+      document.getElementById("conteudo-slides").appendChild(paragrafo2);
     }
     if (obj.texto[num].paragrafo3 != undefined) {
       paragrafo3.classList.remove('animarParagrafos');
       void paragrafo3.offsetWidth;
       paragrafo3.classList.add('animarParagrafos');
-      document.getElementById("teste").appendChild(paragrafo3);
+      document.getElementById("conteudo-slides").appendChild(paragrafo3);
     }
 
     imagens();
@@ -409,9 +409,9 @@ $(document).ready(function () {
   }
 
   function RemoverTextoTela() {
-    document.getElementById("teste").removeChild(teste.firstChild);
-    while (teste.firstChild) {
-      teste.removeChild(teste.firstChild);
+    document.getElementById("conteudo-slides").removeChild(conteudoSlides.firstChild);
+    while (conteudoSlides.firstChild) {
+      conteudoSlides.removeChild(conteudoSlides.firstChild);
     }
   }
 
@@ -438,7 +438,7 @@ $(document).ready(function () {
       novaImagem.classList.remove('animarimagens');
       void novaImagem.offsetWidth;
       novaImagem.classList.add('animarimagens');
-      document.getElementById('teste').appendChild(novaImagem);
+      document.getElementById('conteudo-slides').appendChild(novaImagem);
     }
   }
 
@@ -472,7 +472,7 @@ $(document).ready(function () {
       //ul.classList.remove('animarParagrafos');
      //void ul.offsetWidth;
       //ul.classList.add('animarParagrafos');
-      document.getElementById("teste").appendChild(ul);
+      document.getElementById("conteudo-slides").appendChild(ul);
     }
   }
 
@@ -495,6 +495,6 @@ $(document).ready(function () {
     ul.classList.remove('animarLista');
     void ul.offsetWidth;
     ul.classList.add('animarLista');
-    document.getElementById("teste").appendChild(ul);
+    document.getElementById("conteudo-slides").appendChild(ul);
   }
 });

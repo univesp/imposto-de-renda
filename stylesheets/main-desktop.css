@@ -18,7 +18,7 @@
         background-color: #607989;
     }
 
-    .teste{
+    .conteudo{
         height: 500px;
       }
 
@@ -94,3 +94,9 @@
 nav .logo img{
     background-color: #c4d1d6;
   }
+
+  @media only screen and (max-width:1200px) and (min-width:992px) {
+    .botoes{
+        left: 850px;
+    }
+}
