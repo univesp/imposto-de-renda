@@ -99,4 +99,11 @@ nav .logo img{
     .botoes{
         left: 850px;
     }
+    
+}
+
+@media only screen and (max-width:1024px){
+    footer .sharing i{
+        color: #fff;
+    }
 }
