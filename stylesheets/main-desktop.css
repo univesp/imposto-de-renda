@@ -99,10 +99,31 @@ nav .logo img{
     .botoes{
         left: 850px;
     }
-    
+
+    .imagem-tutorial-33{
+        height: 250px;
+    }
+    .imagem-tutorial-54{
+        margin-left: 0px;
+    }
+    .imagem-tutorial-44{
+        height: 250px;
+    }
+    .imagem-tutorial-57{
+        height: 250px;
+    }
+    .imagem-tutorial-59{
+        height: 200px;
+    }
+    #conteudo-slides{
+        width: 576px;
+    }
+    .tela-paragrafos .lista-ul-4 {
+        margin-left: 0px;
+    }
 }
 
-@media only screen and (max-width:1024px){
+@media only screen and (max-width:1199px){
     footer .sharing i{
         color: #fff;
     }
